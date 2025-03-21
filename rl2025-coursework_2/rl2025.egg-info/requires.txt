@@ -1,0 +1,16 @@
+gymnasium>=0.26
+gymnasium[box2d]
+highway-env
+matplotlib>=3.1
+numpy>=1.18
+pyglet>=1.3
+pytest-csv>=3.0
+pytest-json-report>=1.5
+pytest-json>=0.4
+pytest-timeout>=2.1
+pytest>=5.3
+torch>=1.3
+tqdm>=4.41
+
+[test]
+pytest
