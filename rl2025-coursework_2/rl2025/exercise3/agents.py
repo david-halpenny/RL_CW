@@ -222,12 +222,15 @@ class DQN(Agent):
             
             Exponentially decays epsilon from epsilon_start to epsilon_min using decay_factor
             """
+            if decay_factor == 1:
+                return epsilon_start
+                
             total_decay_time = max_timestep*(np.log(epsilon_min / epsilon_start) / np.log(decay_factor))
             if timestep > total_decay_time:
                 epsilon = epsilon_min
             else:
-                epsilon = epsilon_start * (decay_factor ** (timestep / total_decay_time))
-            return # current epsilon
+                epsilon = epsilon_start * (decay_factor ** (timestep / max_timestep))
+            return epsilon
 
         if self.epsilon_decay_strategy == "constant":
             pass

@@ -32,7 +32,7 @@ MOUNTAINCAR_CONFIG = {
     "hidden_size": (64,64),
     "target_update_freq": 2000,
     "batch_size": 64,
-    "epsilon_decay_strategy": "linear", # "constant" or "linear" or "exponential"
+    "epsilon_decay_strategy": "exponential", # "constant" or "linear" or "exponential"
     "epsilon_start": 0.5,
     "epsilon_min": 0.05, # only used in linear and exponential decay strategies
     "epsilon_decay": None, # For exponential epsilon decay
@@ -49,8 +49,8 @@ MOUNTAINCAR_HPARAMS_LINEAR_DECAY = {
     }
 
 MOUNTAINCAR_HPARAMS_EXP_DECAY = {
-    "epsilon_start": [1.0, ],
-    "epsilon_decay": [1.0, 0.5, 1e-5, 0.95]
+    "epsilon_start": [1.0,],
+    "epsilon_decay": [1, 0.5, 1e-5]
     }
 
 if MOUNTAINCAR_CONFIG['epsilon_decay_strategy'] == "linear":
