@@ -4,6 +4,7 @@ import random
 from typing import List, Dict, DefaultDict
 from gymnasium.spaces import Space
 from gymnasium.spaces.utils import flatdim
+import numpy as np
 
 
 class Agent(ABC):
@@ -54,9 +55,34 @@ class Agent(ABC):
         :return (int): index of selected action
         """
         ### PUT YOUR CODE HERE ###
-        raise NotImplementedError("Needed for Q2")
+        max_q = -float("inf")
+        best_action = -1
+        ties = []
+        # get best action
+        for action in range(self.n_acts):
+            if self.q_table[(obs, action)] > max_q:
+                max_q = self.q_table[(obs, action)]
+                best_action = action
+                ties = []
+            elif self.q_table[(obs, action)] == max_q:
+                ties.append(action)
+                if best_action != -1: # check current best action isn't default
+                    ties.append(best_action)
+        if len(ties) > 0:
+            best_action = random.choice(ties) # choose randomly if there is a tie
+        # assign probabilities and randomly choose action to take
+        probabilities = np.zeros(self.n_acts)
+        for action in range(self.n_acts):
+            if action == best_action:
+                probabilities[action] = 1 - self.epsilon + (self.epsilon / self.n_acts)
+            else:
+                probabilities[action] = self.epsilon / self.n_acts
+
+        action = np.random.choice(self.n_acts, p=probabilities)
+        
+        # raise NotImplementedError("Needed for Q2")
         ### RETURN AN ACTION HERE ###
-        return -1
+        return action
 
     @abstractmethod
     def schedule_hyperparameters(self, timestep: int, max_timestep: int):
@@ -105,7 +131,12 @@ class QLearningAgent(Agent):
         :return (float): updated Q-value for current observation-action pair
         """
         ### PUT YOUR CODE HERE ###
-        raise NotImplementedError("Needed for Q2")
+        if done:
+            q = self.q_table[(obs, action)] + self.alpha * (reward - self.q_table[(obs, action)]) # the value of q(n_obs, a) is 0 for all a
+        else:
+            q = self.q_table[(obs, action)] + self.alpha * (reward + self.gamma * max([self.q_table[(n_obs, a)] for a in range(self.n_acts)]) - self.q_table[(obs, action)])
+        self.q_table[(obs, action)] = q
+        # raise NotImplementedError("Needed for Q2")
         return self.q_table[(obs, action)]
 
     def schedule_hyperparameters(self, timestep: int, max_timestep: int):
@@ -154,7 +185,16 @@ class MonteCarloAgent(Agent):
         """
         updated_values = {}
         ### PUT YOUR CODE HERE ###
-        raise NotImplementedError("Needed for Q2")
+        G = 0
+        for i in range(len(obses) - 1, -1, -1):
+            G = self.gamma * G + rewards[i]
+            if (obses[i], actions[i]) not in self.sa_counts:
+                self.sa_counts[(obses[i], actions[i])] = 0
+            self.sa_counts[(obses[i], actions[i])] += 1
+            self.q_table[(obses[i], actions[i])] += (1 / self.sa_counts[(obses[i], actions[i])]) * (G - self.q_table[(obses[i], actions[i])]) # incremental average formula
+            updated_values[(obses[i], actions[i])] = self.q_table[(obses[i], actions[i])]
+
+        # raise NotImplementedError("Needed for Q2")
         return updated_values
 
     def schedule_hyperparameters(self, timestep: int, max_timestep: int):

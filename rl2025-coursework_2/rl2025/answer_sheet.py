@@ -17,7 +17,7 @@ def question2_1() -> str:
     b) 0.8
     return: (str): your answer as a string. accepted strings: "a" or "b"
     """
-    answer = ""  # TYPE YOUR ANSWER HERE "a" or "b"
+    answer = "a"  # TYPE YOUR ANSWER HERE "a" or "b"
     return answer
 
 
@@ -29,7 +29,7 @@ def question2_2() -> str:
     b) 0.8
     return: (str): your answer as a string. accepted strings: "a" or "b"
     """
-    answer = ""  # TYPE YOUR ANSWER HERE "a" or "b"
+    answer = "a"  # TYPE YOUR ANSWER HERE "a" or "b"
     return answer
 
 
@@ -42,7 +42,7 @@ def question2_3() -> str:
     b) Every-Visit Monte Carlo
     return: (str): your answer as a string. accepted strings: "a" or "b"
     """
-    answer = ""  # TYPE YOUR ANSWER HERE "a" or "b"
+    answer = "b"  # TYPE YOUR ANSWER HERE "a" or "b"
     return answer
 
 
@@ -53,8 +53,12 @@ def question2_4() -> str:
     by [Q-learning / Every-Visit Monte Carlo] when compared to the other algorithm.
     return: answer (str): your answer as a string (100 words max)
     """
-    answer = ""  # TYPE YOUR ANSWER HERE (100 words max)
-    return answer
+    answer = "In the MC agent, q(s,a) is updated with consideration for all future rewards using (gamma^i)*(ith future reward). "\
+            "As i increases, if gamma = 0.8, gamma^i rapidly approaches zero, whereas when gamma = 0.99 this happens much slower. For eg gamma^10 = 0.1 and 0.8 for gamma = 0.8 and 0.99 respectively." \
+            "In contrast, the QL method updates q(s,a) at each timestep with (gamma)*(the_max_q(s',a)."\
+            "This means it doesn't experience the diminishing effect of a smaller gamma, how the MC algorithm does." \
+            "In summary, the MC algorithm relies more heavily on learning that the current action is good based on the future consequences, so a lower gamma effects it's learning ability more."\
+
 
 def question2_5() -> str:
     """
@@ -63,7 +67,9 @@ def question2_5() -> str:
     by [Q-learning / Every-Visit Monte Carlo].
     return: answer (str): your answer as a string (100 words max)
     """
-    answer = ""  # TYPE YOUR ANSWER HERE (100 words max)
+    answer = "The evaluation returns across episodes are either 0 or 1 in the non-slippery variant. This makes sense since the agent is free to learn a deterministic policy that guarantees their success, (a return of 1). Until they learn such a policy they get a reward of 0." \
+            "In contrast in the slippery variant, the returns are consistently numbers between 0 and 1 that tend to increase as the agent learns (with fluctuations)."\
+            "The same set of actions made by the agent don't always lead to the same outcome in the slippery variant, making a deterministic policy less effective and the returns unpredictable."
     return answer
 
 

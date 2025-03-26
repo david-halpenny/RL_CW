@@ -8,7 +8,8 @@ class Run:
     def __init__(self, config: Dict):
         self._config = config
         self._run_name = None
-
+        self._config.setdefault('save_filename', None)  # Ensure 'save_filename' exists
+        
         self._final_returns = []
         self._train_times = []
         self._run_data = []

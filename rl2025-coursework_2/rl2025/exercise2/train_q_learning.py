@@ -4,6 +4,7 @@ from tqdm import tqdm
 from rl2025.constants import EX2_QL_CONSTANTS as CONSTANTS
 from rl2025.exercise2.agents import QLearningAgent
 from rl2025.exercise2.utils import evaluate
+from rl2025.util.result_processing import Run
 
 CONFIG = {
     "eval_freq": 1000, # keep this unchanged
@@ -43,7 +44,7 @@ def q_learning_eval(
     return evaluate(eval_env, eval_agent, config["eval_eps_max_steps"], config["eval_episodes"])
 
 
-def train(env, config):
+def train(env, config, run: Run):
     """
     Train and evaluate Q-Learning on given environment with provided hyperparameters
 
@@ -97,9 +98,30 @@ def train(env, config):
             evaluation_return_means.append(mean_return)
             evaluation_negative_returns.append(negative_returns)
 
+    run.update(
+        eval_returns=evaluation_return_means,
+        eval_timesteps=list(range(1, len(evaluation_return_means) + 1)),
+    )
+
     return total_reward, evaluation_return_means, evaluation_negative_returns, agent.q_table
 
 
 if __name__ == "__main__":
-    env = gym.make(CONFIG["env"])
-    total_reward, _, _, q_table = train(env, CONFIG)
+    is_slippery = True 
+    env = gym.make(CONFIG["env"], is_slippery=is_slippery)
+    run = Run(CONFIG)
+    num_runs = 10
+
+    for run_id in range(num_runs):
+        print(f"Starting run {run_id + 1}/{num_runs}:")
+        total_reward, _,_, q_table = train(env, CONFIG, run)
+   
+    run.set_save_filename("q_learning_results")
+    print(f"Results for {run._config['save_filename']} with settings of: "
+          f"gamma = {CONFIG['gamma']}, alpha = {CONFIG['alpha']}, epsilon = {CONFIG['epsilon']}, "
+          f"is_slippery = {is_slippery}")
+    
+    # Print summary statistics
+    print(f"Final mean return across runs: {run.final_return_mean}")
+    print(f"Final standard error of return across runs: {run.final_return_ste}")
+    print(f"Final interquartile mean of return across runs: {run.final_return_iqm}")
