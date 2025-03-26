@@ -203,6 +203,7 @@ def train(env: gym.Env, config, output: bool = True) -> Tuple[np.ndarray, np.nda
 
     # you may add logging of additional metrics here
     run_data["train_episodes"] = np.arange(1, len(run_data["train_ep_returns"]) + 1).tolist()
+    run_data["alpha"] = agent.alpha
 
     return np.array(eval_returns_all), np.array(eval_timesteps_all), np.array(eval_times_all), run_data
 
@@ -245,5 +246,24 @@ if __name__ == "__main__":
             with open(SWEEP_RESULTS_FILE, 'wb') as f:
                 pickle.dump(results, f)
     else:
-        _ = train(env, CONFIG)
+        run = Run(CONFIG)
+        run.run_name = f"{CONFIG['algo']}-{CONFIG['env']}"
+        print(f"\nStarting training for {run.run_name}...")
+
+        for run_id in range(NUM_SEEDS_SWEEP):
+            print(f"\nStarting run {run_id + 1}/{NUM_SEEDS_SWEEP}...")
+            eval_returns, eval_timesteps, times, run_data = train(env, CONFIG)
+            run.update(eval_returns, eval_timesteps, times, run_data)
+
+            # Retrieve the alpha value from the agent
+            alpha_value = run_data["alpha"]
+
+            # Print out the results for this run
+            print(f"\nFinished run {run_id + 1}/{NUM_SEEDS_SWEEP}.")
+            print(f"Mean return for this run: {np.mean(eval_returns)}")
+            print(f"Alpha (learning rate): {alpha_value}")
+
+        # Print final aggregated results
+        print(f"\nFinished training for {run.run_name}.")
+        print(f"Mean final score for alpha {alpha_value} across all runs: {run.final_return_mean} +- {run.final_return_ste}")
     env.close()

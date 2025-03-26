@@ -210,15 +210,23 @@ class DQN(Agent):
             
             Linearly decays epsilon from epsilon_start to epsilon_min based on the exploration_fraction
             """
-            ### PUT YOUR CODE HERE ###
-            return # current epsilon
+            total_decay_time = int(max_timestep * exploration_fraction)
+            if timestep > total_decay_time:
+                epsilon = epsilon_min
+            else:
+                epsilon = epsilon_start - (epsilon_start - epsilon_min) * (timestep / total_decay_time)
+            return epsilon
 
         def epsilon_exponential_decay(timestep, epsilon_start, epsilon_min, decay_factor):
             """Exponential epsilon decay strategy
             
             Exponentially decays epsilon from epsilon_start to epsilon_min using decay_factor
             """
-            ### PUT YOUR CODE HERE ###
+            total_decay_time = max_timestep*(np.log(epsilon_min / epsilon_start) / np.log(decay_factor))
+            if timestep > total_decay_time:
+                epsilon = epsilon_min
+            else:
+                epsilon = epsilon_start * (decay_factor ** (timestep / total_decay_time))
             return # current epsilon
 
         if self.epsilon_decay_strategy == "constant":
@@ -345,7 +353,7 @@ class DiscreteRL(Agent):
         observation_space: gym.Space,
         gamma: float = 0.99,
         epsilon: float = 0.99,
-        alpha: float = 0.05,
+        alpha: float = 0.0002,
         **kwargs
     ):
         """Constructor of DiscreteRL agent
@@ -369,6 +377,7 @@ class DiscreteRL(Agent):
 
         # For mountain car environment discretization - creates k bins for each dimension, e.g. k=8
         # Position range: -1.2 to 0.6 (8 bins)
+        k = 8 # hardcode 8
         self.position_bins = np.linspace(-1.2, 0.6, k)
         # Velocity range: -0.07 to 0.07 (8 bins)
         self.velocity_bins = np.linspace(-0.07, 0.07, k)
@@ -439,6 +448,13 @@ class DiscreteRL(Agent):
         next_state = self.discretize_state(n_obs)   # Next state
 
         ### PUT YOUR CODE HERE ###
+        if done:
+            q = self.q_table[(state, action)] + self.alpha * (reward - self.q_table[(state, action)])
+        else:
+            q = self.q_table[(state, action)] + self.alpha * (
+                reward + self.gamma * max([self.q_table[(next_state, a)] for a in range(self.n_acts)]) - self.q_table[(state, action)]
+            )
+        self.q_table[(state, action)] = q
 
         return {f"Q_value_{state}" : self.q_table[(state, action)]}
 

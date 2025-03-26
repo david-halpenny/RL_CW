@@ -17,7 +17,7 @@ from rl2025.util.hparam_sweeping import generate_hparam_configs
 from rl2025.util.result_processing import Run
 
 RENDER = False # FALSE FOR FASTER TRAINING / TRUE TO VISUALIZE ENVIRONMENT DURING EVALUATION
-SWEEP = False # TRUE TO SWEEP OVER POSSIBLE HYPERPARAMETER CONFIGURATIONS
+SWEEP = True # TRUE TO SWEEP OVER POSSIBLE HYPERPARAMETER CONFIGURATIONS
 NUM_SEEDS_SWEEP = 10 # NUMBER OF SEEDS TO USE FOR EACH HYPERPARAMETER CONFIGURATION
 SWEEP_SAVE_RESULTS = True # TRUE TO SAVE SWEEP RESULTS TO A FILE
 SWEEP_SAVE_ALL_WEIGHTS = False # TRUE TO SAVE ALL WEIGHTS FROM EACH SEED
@@ -32,7 +32,7 @@ MOUNTAINCAR_CONFIG = {
     "hidden_size": (64,64),
     "target_update_freq": 2000,
     "batch_size": 64,
-    "epsilon_decay_strategy": "constant", # "constant" or "linear" or "exponential"
+    "epsilon_decay_strategy": "linear", # "constant" or "linear" or "exponential"
     "epsilon_start": 0.5,
     "epsilon_min": 0.05, # only used in linear and exponential decay strategies
     "epsilon_decay": None, # For exponential epsilon decay
@@ -50,7 +50,7 @@ MOUNTAINCAR_HPARAMS_LINEAR_DECAY = {
 
 MOUNTAINCAR_HPARAMS_EXP_DECAY = {
     "epsilon_start": [1.0, ],
-    "epsilon_decay": [1.0, 0.5, 1e-5]
+    "epsilon_decay": [1.0, 0.5, 1e-5, 0.95]
     }
 
 if MOUNTAINCAR_CONFIG['epsilon_decay_strategy'] == "linear":
@@ -203,6 +203,7 @@ def train(env: gym.Env, config, output: bool = True) -> Tuple[np.ndarray, np.nda
         # you may add logging of additional metrics here
         run_data["train_timesteps"] = (config["batch_size"] * np.arange(1, len(run_data["q_loss"]) + 1)).tolist()
         run_data["train_episodes"] = np.arange(1, len(run_data["train_ep_returns"]) + 1).tolist()
+        run_data["final_epsilon"] = agent.epsilon
         
     if config["save_filename"]:
         print("\nSaving to: ", agent.save(config["save_filename"]))
@@ -249,11 +250,12 @@ if __name__ == "__main__":
                 run_save_filename = '--'.join([run.config["algo"], run.config["env"], hparams_values, str(i)])
                 if SWEEP_SAVE_ALL_WEIGHTS:
                     run.set_save_filename(run_save_filename)
-                eval_returns, eval_timesteps, times, run_data = train(env, run.config, output=False)
+                eval_returns, eval_timesteps, times, run_data = train(env, run.config, output=True)
                 run.update(eval_returns, eval_timesteps, times, run_data)
             results.append(copy.deepcopy(run))
             print(f"Finished run with hyperparameters {hparams_values}. "
                   f"Mean final score: {run.final_return_mean} +- {run.final_return_ste}")
+            print(f"Final epsilon: {run_data['final_epsilon']}")
 
         if SWEEP_SAVE_RESULTS:
             print(f"Saving results to {SWEEP_RESULTS_FILE}")
