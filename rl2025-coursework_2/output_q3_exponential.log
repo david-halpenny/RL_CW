@@ -1,0 +1,4273 @@
+
+Starting new run...
+
+Training iteration: 1/10
+Evaluation at timestep 10000 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 20176 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 30179 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 40033 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 50022 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 60068 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 70014 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 80131 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 90193 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 100019 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 110065 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 120139 returned a mean returns of -186.40000000000006
+Epsilon = 0.05
+Evaluation at timestep 130030 returned a mean returns of -146.07000000000005
+Epsilon = 0.05
+Evaluation at timestep 140141 returned a mean returns of -125.39
+Epsilon = 0.05
+Evaluation at timestep 150026 returned a mean returns of -198.05
+Epsilon = 0.05
+Evaluation at timestep 160150 returned a mean returns of -136.09999999999994
+Epsilon = 0.05
+Evaluation at timestep 170110 returned a mean returns of -149.48999999999995
+Epsilon = 0.05
+Evaluation at timestep 180118 returned a mean returns of -195.32
+Epsilon = 0.05
+Evaluation at timestep 190007 returned a mean returns of -175.01000000000008
+Epsilon = 0.05
+Evaluation at timestep 200089 returned a mean returns of -168.13999999999996
+Epsilon = 0.05
+Evaluation at timestep 210002 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 220046 returned a mean returns of -167.53999999999996
+Epsilon = 0.05
+Evaluation at timestep 230028 returned a mean returns of -139.94
+Epsilon = 0.05
+Evaluation at timestep 240123 returned a mean returns of -133.17
+Epsilon = 0.05
+Evaluation at timestep 250063 returned a mean returns of -140.30999999999997
+Epsilon = 0.05
+Evaluation at timestep 260060 returned a mean returns of -129.51999999999998
+Epsilon = 0.05
+Evaluation at timestep 270053 returned a mean returns of -129.33999999999997
+Epsilon = 0.05
+Evaluation at timestep 280017 returned a mean returns of -129.06999999999988
+Epsilon = 0.05
+Evaluation at timestep 290022 returned a mean returns of -128.79999999999995
+Epsilon = 0.05
+Evaluation at timestep 300044 returned a mean returns of -126.02
+Epsilon = 0.05
+Evaluation at timestep 310084 returned a mean returns of -128.20999999999998
+Epsilon = 0.05
+Evaluation at timestep 320110 returned a mean returns of -118.2100000000001
+Epsilon = 0.05
+Evaluation at timestep 330126 returned a mean returns of -131.66999999999996
+Epsilon = 0.05
+Evaluation at timestep 340087 returned a mean returns of -127.36000000000003
+Epsilon = 0.05
+Evaluation at timestep 350079 returned a mean returns of -121.74000000000008
+Epsilon = 0.05
+Evaluation at timestep 360059 returned a mean returns of -133.70999999999998
+Epsilon = 0.05
+Evaluation at timestep 370110 returned a mean returns of -129.01000000000005
+Epsilon = 0.05
+Evaluation at timestep 380127 returned a mean returns of -120.8399999999999
+Epsilon = 0.05
+Evaluation at timestep 390076 returned a mean returns of -122.51999999999998
+Epsilon = 0.05
+Evaluation at timestep 400060 returned a mean returns of -131.14999999999995
+Epsilon = 0.05
+Evaluation at timestep 410101 returned a mean returns of -126.72999999999999
+Epsilon = 0.05
+Evaluation at timestep 420144 returned a mean returns of -131.48
+Epsilon = 0.05
+Evaluation at timestep 430090 returned a mean returns of -123.40999999999997
+Epsilon = 0.05
+Evaluation at timestep 440099 returned a mean returns of -128.84999999999997
+Epsilon = 0.05
+Evaluation at timestep 450080 returned a mean returns of -120.37999999999991
+Epsilon = 0.05
+Evaluation at timestep 460030 returned a mean returns of -106.69000000000005
+Epsilon = 0.05
+Evaluation at timestep 470018 returned a mean returns of -119.44999999999989
+Epsilon = 0.05
+Evaluation at timestep 480040 returned a mean returns of -98.96000000000001
+Epsilon = 0.05
+Evaluation at timestep 490002 returned a mean returns of -116.54999999999993
+Epsilon = 0.05
+Evaluation at timestep 500076 returned a mean returns of -99.37000000000005
+Epsilon = 0.05
+Evaluation at timestep 510024 returned a mean returns of -138.01999999999995
+Epsilon = 0.05
+Evaluation at timestep 520104 returned a mean returns of -107.13999999999993
+Epsilon = 0.05
+Evaluation at timestep 530036 returned a mean returns of -125.66999999999997
+Epsilon = 0.05
+Evaluation at timestep 540093 returned a mean returns of -117.12000000000016
+Epsilon = 0.05
+Evaluation at timestep 550062 returned a mean returns of -133.95
+Epsilon = 0.05
+Evaluation at timestep 560070 returned a mean returns of -110.18999999999988
+Epsilon = 0.05
+Evaluation at timestep 570052 returned a mean returns of -116.45
+Epsilon = 0.05
+Evaluation at timestep 580032 returned a mean returns of -191.47999999999996
+Epsilon = 0.05
+Evaluation at timestep 590115 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 600039 returned a mean returns of -129.65999999999994
+Epsilon = 0.05
+Evaluation at timestep 610136 returned a mean returns of -117.95999999999987
+Epsilon = 0.05
+Evaluation at timestep 620128 returned a mean returns of -133.29
+Epsilon = 0.05
+Evaluation at timestep 630018 returned a mean returns of -196.33
+Epsilon = 0.05
+Evaluation at timestep 640004 returned a mean returns of -129.81000000000003
+Epsilon = 0.05
+Evaluation at timestep 650103 returned a mean returns of -126.42999999999999
+Epsilon = 0.05
+Evaluation at timestep 660022 returned a mean returns of -137.61999999999995
+Epsilon = 0.05
+Evaluation at timestep 670098 returned a mean returns of -124.54000000000005
+Epsilon = 0.05
+Evaluation at timestep 680092 returned a mean returns of -126.3400000000001
+Epsilon = 0.05
+Evaluation at timestep 690132 returned a mean returns of -130.51
+Epsilon = 0.05
+Evaluation at timestep 700080 returned a mean returns of -127.04000000000006
+Epsilon = 0.05
+
+Training iteration: 2/10
+Evaluation at timestep 10000 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 20000 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 30026 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 40039 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 50123 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 60005 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 70116 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 80043 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 90021 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 100155 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 110156 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 120055 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 130124 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 140139 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 150038 returned a mean returns of -171.26
+Epsilon = 0.05
+Evaluation at timestep 160156 returned a mean returns of -137.07000000000005
+Epsilon = 0.05
+Evaluation at timestep 170121 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 180176 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 190025 returned a mean returns of -192.96
+Epsilon = 0.05
+Evaluation at timestep 200010 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 210103 returned a mean returns of -151.01000000000005
+Epsilon = 0.05
+Evaluation at timestep 220048 returned a mean returns of -145.95000000000005
+Epsilon = 0.05
+Evaluation at timestep 230063 returned a mean returns of -147.62000000000003
+Epsilon = 0.05
+Evaluation at timestep 240041 returned a mean returns of -126.66999999999994
+Epsilon = 0.05
+Evaluation at timestep 250011 returned a mean returns of -132.96000000000006
+Epsilon = 0.05
+Evaluation at timestep 260058 returned a mean returns of -121.44999999999996
+Epsilon = 0.05
+Evaluation at timestep 270119 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 280009 returned a mean returns of -123.25000000000001
+Epsilon = 0.05
+Evaluation at timestep 290095 returned a mean returns of -102.38
+Epsilon = 0.05
+Evaluation at timestep 300069 returned a mean returns of -103.27999999999994
+Epsilon = 0.05
+Evaluation at timestep 310078 returned a mean returns of -146.25000000000003
+Epsilon = 0.05
+Evaluation at timestep 320084 returned a mean returns of -157.52000000000004
+Epsilon = 0.05
+Evaluation at timestep 330078 returned a mean returns of -138.49000000000004
+Epsilon = 0.05
+Evaluation at timestep 340009 returned a mean returns of -158.90999999999997
+Epsilon = 0.05
+Evaluation at timestep 350024 returned a mean returns of -114.71999999999996
+Epsilon = 0.05
+Evaluation at timestep 360063 returned a mean returns of -107.13000000000004
+Epsilon = 0.05
+Evaluation at timestep 370083 returned a mean returns of -115.84999999999998
+Epsilon = 0.05
+Evaluation at timestep 380056 returned a mean returns of -168.64
+Epsilon = 0.05
+Evaluation at timestep 390064 returned a mean returns of -109.58000000000008
+Epsilon = 0.05
+Evaluation at timestep 400078 returned a mean returns of -107.90000000000005
+Epsilon = 0.05
+Evaluation at timestep 410104 returned a mean returns of -116.49000000000001
+Epsilon = 0.05
+Evaluation at timestep 420064 returned a mean returns of -106.46999999999989
+Epsilon = 0.05
+Evaluation at timestep 430104 returned a mean returns of -119.46999999999998
+Epsilon = 0.05
+Evaluation at timestep 440009 returned a mean returns of -124.11
+Epsilon = 0.05
+Evaluation at timestep 450028 returned a mean returns of -105.06
+Epsilon = 0.05
+Evaluation at timestep 460063 returned a mean returns of -161.8499999999999
+Epsilon = 0.05
+Evaluation at timestep 470082 returned a mean returns of -121.84000000000002
+Epsilon = 0.05
+Evaluation at timestep 480079 returned a mean returns of -110.32999999999998
+Epsilon = 0.05
+Evaluation at timestep 490002 returned a mean returns of -110.88999999999999
+Epsilon = 0.05
+Evaluation at timestep 500077 returned a mean returns of -127.74
+Epsilon = 0.05
+Evaluation at timestep 510052 returned a mean returns of -129.14999999999995
+Epsilon = 0.05
+Evaluation at timestep 520158 returned a mean returns of -107.67999999999981
+Epsilon = 0.05
+Evaluation at timestep 530019 returned a mean returns of -124.38000000000004
+Epsilon = 0.05
+Evaluation at timestep 540015 returned a mean returns of -135.89000000000004
+Epsilon = 0.05
+Evaluation at timestep 550071 returned a mean returns of -148.4
+Epsilon = 0.05
+Evaluation at timestep 560095 returned a mean returns of -133.16
+Epsilon = 0.05
+Evaluation at timestep 570027 returned a mean returns of -128.11999999999995
+Epsilon = 0.05
+Evaluation at timestep 580056 returned a mean returns of -115.60000000000001
+Epsilon = 0.05
+Evaluation at timestep 590080 returned a mean returns of -152.08999999999997
+Epsilon = 0.05
+Evaluation at timestep 600099 returned a mean returns of -130.06
+Epsilon = 0.05
+Evaluation at timestep 610022 returned a mean returns of -100.30999999999999
+Epsilon = 0.05
+Evaluation at timestep 620026 returned a mean returns of -115.67000000000003
+Epsilon = 0.05
+Evaluation at timestep 630051 returned a mean returns of -155.07
+Epsilon = 0.05
+Evaluation at timestep 640094 returned a mean returns of -124.33
+Epsilon = 0.05
+Evaluation at timestep 650119 returned a mean returns of -131.17999999999998
+Epsilon = 0.05
+Evaluation at timestep 660043 returned a mean returns of -131.83999999999995
+Epsilon = 0.05
+Evaluation at timestep 670141 returned a mean returns of -144.06
+Epsilon = 0.05
+Evaluation at timestep 680160 returned a mean returns of -122.60000000000001
+Epsilon = 0.05
+Evaluation at timestep 690088 returned a mean returns of -162.35999999999999
+Epsilon = 0.05
+Evaluation at timestep 700051 returned a mean returns of -104.08000000000001
+Epsilon = 0.05
+
+Training iteration: 3/10
+Evaluation at timestep 10000 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 20000 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 30068 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 40133 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 50112 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 60075 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 70154 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 80013 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 90070 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 100077 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 110131 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 120033 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 130093 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 140016 returned a mean returns of -139.15000000000003
+Epsilon = 0.05
+Evaluation at timestep 150130 returned a mean returns of -137.34000000000006
+Epsilon = 0.05
+Evaluation at timestep 160166 returned a mean returns of -133.20000000000002
+Epsilon = 0.05
+Evaluation at timestep 170126 returned a mean returns of -134.26000000000005
+Epsilon = 0.05
+Evaluation at timestep 180043 returned a mean returns of -145.15999999999994
+Epsilon = 0.05
+Evaluation at timestep 190065 returned a mean returns of -134.74000000000007
+Epsilon = 0.05
+Evaluation at timestep 200150 returned a mean returns of -164.03
+Epsilon = 0.05
+Evaluation at timestep 210131 returned a mean returns of -151.26
+Epsilon = 0.05
+Evaluation at timestep 220071 returned a mean returns of -134.17000000000007
+Epsilon = 0.05
+Evaluation at timestep 230095 returned a mean returns of -139.87000000000003
+Epsilon = 0.05
+Evaluation at timestep 240123 returned a mean returns of -138.98000000000002
+Epsilon = 0.05
+Evaluation at timestep 250046 returned a mean returns of -126.39999999999999
+Epsilon = 0.05
+Evaluation at timestep 260122 returned a mean returns of -119.65000000000002
+Epsilon = 0.05
+Evaluation at timestep 270020 returned a mean returns of -148.79000000000005
+Epsilon = 0.05
+Evaluation at timestep 280038 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 290045 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 300048 returned a mean returns of -105.71000000000002
+Epsilon = 0.05
+Evaluation at timestep 310084 returned a mean returns of -157.82999999999998
+Epsilon = 0.05
+Evaluation at timestep 320066 returned a mean returns of -195.36999999999995
+Epsilon = 0.05
+Evaluation at timestep 330128 returned a mean returns of -108.48999999999985
+Epsilon = 0.05
+Evaluation at timestep 340082 returned a mean returns of -167.16
+Epsilon = 0.05
+Evaluation at timestep 350086 returned a mean returns of -109.64000000000003
+Epsilon = 0.05
+Evaluation at timestep 360058 returned a mean returns of -176.59000000000003
+Epsilon = 0.05
+Evaluation at timestep 370093 returned a mean returns of -105.23999999999994
+Epsilon = 0.05
+Evaluation at timestep 380006 returned a mean returns of -113.24999999999999
+Epsilon = 0.05
+Evaluation at timestep 390148 returned a mean returns of -158.02
+Epsilon = 0.05
+Evaluation at timestep 400138 returned a mean returns of -116.75999999999989
+Epsilon = 0.05
+Evaluation at timestep 410101 returned a mean returns of -123.07
+Epsilon = 0.05
+Evaluation at timestep 420044 returned a mean returns of -120.04999999999998
+Epsilon = 0.05
+Evaluation at timestep 430122 returned a mean returns of -125.66000000000004
+Epsilon = 0.05
+Evaluation at timestep 440139 returned a mean returns of -114.98999999999997
+Epsilon = 0.05
+Evaluation at timestep 450084 returned a mean returns of -135.39000000000001
+Epsilon = 0.05
+Evaluation at timestep 460027 returned a mean returns of -157.3800000000001
+Epsilon = 0.05
+Evaluation at timestep 470033 returned a mean returns of -103.42999999999994
+Epsilon = 0.05
+Evaluation at timestep 480072 returned a mean returns of -120.21999999999998
+Epsilon = 0.05
+Evaluation at timestep 490014 returned a mean returns of -137.18999999999994
+Epsilon = 0.05
+Evaluation at timestep 500020 returned a mean returns of -113.27000000000001
+Epsilon = 0.05
+Evaluation at timestep 510018 returned a mean returns of -101.65999999999998
+Epsilon = 0.05
+Evaluation at timestep 520167 returned a mean returns of -102.40000000000005
+Epsilon = 0.05
+Evaluation at timestep 530082 returned a mean returns of -102.29999999999995
+Epsilon = 0.05
+Evaluation at timestep 540002 returned a mean returns of -108.03999999999992
+Epsilon = 0.05
+Evaluation at timestep 550101 returned a mean returns of -152.08999999999995
+Epsilon = 0.05
+Evaluation at timestep 560076 returned a mean returns of -103.93
+Epsilon = 0.05
+Evaluation at timestep 570101 returned a mean returns of -103.05999999999996
+Epsilon = 0.05
+Evaluation at timestep 580040 returned a mean returns of -108.30999999999992
+Epsilon = 0.05
+Evaluation at timestep 590048 returned a mean returns of -104.20999999999995
+Epsilon = 0.05
+Evaluation at timestep 600001 returned a mean returns of -196.05
+Epsilon = 0.05
+Evaluation at timestep 610059 returned a mean returns of -99.82000000000004
+Epsilon = 0.05
+Evaluation at timestep 620082 returned a mean returns of -105.37000000000005
+Epsilon = 0.05
+Evaluation at timestep 630111 returned a mean returns of -112.98000000000003
+Epsilon = 0.05
+Evaluation at timestep 640010 returned a mean returns of -115.32
+Epsilon = 0.05
+Evaluation at timestep 650080 returned a mean returns of -110.97999999999999
+Epsilon = 0.05
+Evaluation at timestep 660009 returned a mean returns of -104.96999999999996
+Epsilon = 0.05
+Evaluation at timestep 670060 returned a mean returns of -99.39
+Epsilon = 0.05
+Evaluation at timestep 680090 returned a mean returns of -101.04000000000003
+Epsilon = 0.05
+Evaluation at timestep 690095 returned a mean returns of -115.50000000000003
+Epsilon = 0.05
+Evaluation at timestep 700070 returned a mean returns of -103.87999999999984
+Epsilon = 0.05
+
+Training iteration: 4/10
+Evaluation at timestep 10000 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 20000 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 30000 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 40000 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 50000 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 60000 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 70161 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 80116 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 90116 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 100112 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 110033 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 120169 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 130043 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 140160 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 150139 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 160080 returned a mean returns of -181.24
+Epsilon = 0.05
+Evaluation at timestep 170081 returned a mean returns of -149.47999999999996
+Epsilon = 0.05
+Evaluation at timestep 180078 returned a mean returns of -170.13000000000014
+Epsilon = 0.05
+Evaluation at timestep 190073 returned a mean returns of -136.23000000000005
+Epsilon = 0.05
+Evaluation at timestep 200045 returned a mean returns of -146.14
+Epsilon = 0.05
+Evaluation at timestep 210073 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 220158 returned a mean returns of -186.52
+Epsilon = 0.05
+Evaluation at timestep 230039 returned a mean returns of -154.47000000000006
+Epsilon = 0.05
+Evaluation at timestep 240146 returned a mean returns of -184.85000000000005
+Epsilon = 0.05
+Evaluation at timestep 250029 returned a mean returns of -158.09
+Epsilon = 0.05
+Evaluation at timestep 260034 returned a mean returns of -130.86000000000004
+Epsilon = 0.05
+Evaluation at timestep 270102 returned a mean returns of -126.67999999999998
+Epsilon = 0.05
+Evaluation at timestep 280109 returned a mean returns of -130.52000000000004
+Epsilon = 0.05
+Evaluation at timestep 290074 returned a mean returns of -126.56
+Epsilon = 0.05
+Evaluation at timestep 300108 returned a mean returns of -126.72000000000003
+Epsilon = 0.05
+Evaluation at timestep 310044 returned a mean returns of -123.18999999999997
+Epsilon = 0.05
+Evaluation at timestep 320062 returned a mean returns of -185.76
+Epsilon = 0.05
+Evaluation at timestep 330114 returned a mean returns of -114.33000000000006
+Epsilon = 0.05
+Evaluation at timestep 340056 returned a mean returns of -108.54999999999998
+Epsilon = 0.05
+Evaluation at timestep 350003 returned a mean returns of -109.44000000000005
+Epsilon = 0.05
+Evaluation at timestep 360080 returned a mean returns of -109.82000000000001
+Epsilon = 0.05
+Evaluation at timestep 370024 returned a mean returns of -104.97000000000003
+Epsilon = 0.05
+Evaluation at timestep 380152 returned a mean returns of -104.70999999999998
+Epsilon = 0.05
+Evaluation at timestep 390103 returned a mean returns of -133.47000000000003
+Epsilon = 0.05
+Evaluation at timestep 400017 returned a mean returns of -134.34000000000006
+Epsilon = 0.05
+Evaluation at timestep 410008 returned a mean returns of -104.64999999999996
+Epsilon = 0.05
+Evaluation at timestep 420079 returned a mean returns of -103.96000000000002
+Epsilon = 0.05
+Evaluation at timestep 430029 returned a mean returns of -124.57000000000001
+Epsilon = 0.05
+Evaluation at timestep 440097 returned a mean returns of -129.88000000000002
+Epsilon = 0.05
+Evaluation at timestep 450061 returned a mean returns of -142.78000000000006
+Epsilon = 0.05
+Evaluation at timestep 460085 returned a mean returns of -138.16999999999996
+Epsilon = 0.05
+Evaluation at timestep 470050 returned a mean returns of -137.11
+Epsilon = 0.05
+Evaluation at timestep 480120 returned a mean returns of -143.92000000000002
+Epsilon = 0.05
+Evaluation at timestep 490119 returned a mean returns of -146.92999999999995
+Epsilon = 0.05
+Evaluation at timestep 500055 returned a mean returns of -130.02000000000004
+Epsilon = 0.05
+Evaluation at timestep 510112 returned a mean returns of -139.51000000000002
+Epsilon = 0.05
+Evaluation at timestep 520114 returned a mean returns of -138.98000000000002
+Epsilon = 0.05
+Evaluation at timestep 530032 returned a mean returns of -141.55999999999995
+Epsilon = 0.05
+Evaluation at timestep 540035 returned a mean returns of -140.24000000000007
+Epsilon = 0.05
+Evaluation at timestep 550095 returned a mean returns of -137.93
+Epsilon = 0.05
+Evaluation at timestep 560051 returned a mean returns of -136.9
+Epsilon = 0.05
+Evaluation at timestep 570083 returned a mean returns of -135.82999999999996
+Epsilon = 0.05
+Evaluation at timestep 580149 returned a mean returns of -144.98
+Epsilon = 0.05
+Evaluation at timestep 590015 returned a mean returns of -137.76
+Epsilon = 0.05
+Evaluation at timestep 600081 returned a mean returns of -134.68999999999997
+Epsilon = 0.05
+Evaluation at timestep 610007 returned a mean returns of -157.17000000000002
+Epsilon = 0.05
+Evaluation at timestep 620061 returned a mean returns of -131.81999999999994
+Epsilon = 0.05
+Evaluation at timestep 630130 returned a mean returns of -122.90000000000002
+Epsilon = 0.05
+Evaluation at timestep 640071 returned a mean returns of -117.71000000000004
+Epsilon = 0.05
+Evaluation at timestep 650012 returned a mean returns of -102.25999999999998
+Epsilon = 0.05
+Evaluation at timestep 660091 returned a mean returns of -101.32999999999997
+Epsilon = 0.05
+Evaluation at timestep 670069 returned a mean returns of -117.06999999999998
+Epsilon = 0.05
+Evaluation at timestep 680165 returned a mean returns of -125.25999999999998
+Epsilon = 0.05
+Evaluation at timestep 690100 returned a mean returns of -127.00000000000009
+Epsilon = 0.05
+Evaluation at timestep 700111 returned a mean returns of -128.25000000000003
+Epsilon = 0.05
+
+Training iteration: 5/10
+Evaluation at timestep 10189 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 20189 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 30035 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 40013 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 50090 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 60068 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 70113 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 80001 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 90055 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 100165 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 110125 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 120017 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 130168 returned a mean returns of -122.39000000000006
+Epsilon = 0.05
+Evaluation at timestep 140035 returned a mean returns of -121.25000000000003
+Epsilon = 0.05
+Evaluation at timestep 150072 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 160150 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 170021 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 180076 returned a mean returns of -153.26000000000005
+Epsilon = 0.05
+Evaluation at timestep 190028 returned a mean returns of -144.35
+Epsilon = 0.05
+Evaluation at timestep 200077 returned a mean returns of -161.89000000000007
+Epsilon = 0.05
+Evaluation at timestep 210105 returned a mean returns of -153.62999999999994
+Epsilon = 0.05
+Evaluation at timestep 220074 returned a mean returns of -126.95000000000003
+Epsilon = 0.05
+Evaluation at timestep 230015 returned a mean returns of -129.92999999999998
+Epsilon = 0.05
+Evaluation at timestep 240054 returned a mean returns of -129.13
+Epsilon = 0.05
+Evaluation at timestep 250008 returned a mean returns of -138.37000000000003
+Epsilon = 0.05
+Evaluation at timestep 260140 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 270008 returned a mean returns of -161.51000000000002
+Epsilon = 0.05
+Evaluation at timestep 280017 returned a mean returns of -128.01
+Epsilon = 0.05
+Evaluation at timestep 290099 returned a mean returns of -119.20000000000006
+Epsilon = 0.05
+Evaluation at timestep 300041 returned a mean returns of -142.16999999999996
+Epsilon = 0.05
+Evaluation at timestep 310088 returned a mean returns of -114.82000000000005
+Epsilon = 0.05
+Evaluation at timestep 320076 returned a mean returns of -133.9
+Epsilon = 0.05
+Evaluation at timestep 330184 returned a mean returns of -109.66999999999999
+Epsilon = 0.05
+Evaluation at timestep 340174 returned a mean returns of -119.89999999999993
+Epsilon = 0.05
+Evaluation at timestep 350148 returned a mean returns of -111.27
+Epsilon = 0.05
+Evaluation at timestep 360083 returned a mean returns of -106.49000000000004
+Epsilon = 0.05
+Evaluation at timestep 370029 returned a mean returns of -113.91999999999997
+Epsilon = 0.05
+Evaluation at timestep 380135 returned a mean returns of -198.13
+Epsilon = 0.05
+Evaluation at timestep 390046 returned a mean returns of -106.07
+Epsilon = 0.05
+Evaluation at timestep 400079 returned a mean returns of -134.53000000000006
+Epsilon = 0.05
+Evaluation at timestep 410025 returned a mean returns of -117.14000000000006
+Epsilon = 0.05
+Evaluation at timestep 420083 returned a mean returns of -121.45000000000005
+Epsilon = 0.05
+Evaluation at timestep 430059 returned a mean returns of -123.69999999999999
+Epsilon = 0.05
+Evaluation at timestep 440020 returned a mean returns of -119.64000000000007
+Epsilon = 0.05
+Evaluation at timestep 450066 returned a mean returns of -100.37999999999994
+Epsilon = 0.05
+Evaluation at timestep 460064 returned a mean returns of -107.27000000000004
+Epsilon = 0.05
+Evaluation at timestep 470065 returned a mean returns of -108.01000000000005
+Epsilon = 0.05
+Evaluation at timestep 480087 returned a mean returns of -106.45999999999994
+Epsilon = 0.05
+Evaluation at timestep 490033 returned a mean returns of -103.85999999999999
+Epsilon = 0.05
+Evaluation at timestep 500068 returned a mean returns of -101.84999999999997
+Epsilon = 0.05
+Evaluation at timestep 510005 returned a mean returns of -116.89
+Epsilon = 0.05
+Evaluation at timestep 520066 returned a mean returns of -115.86000000000003
+Epsilon = 0.05
+Evaluation at timestep 530096 returned a mean returns of -116.44000000000004
+Epsilon = 0.05
+Evaluation at timestep 540034 returned a mean returns of -102.35000000000001
+Epsilon = 0.05
+Evaluation at timestep 550020 returned a mean returns of -122.00999999999999
+Epsilon = 0.05
+Evaluation at timestep 560024 returned a mean returns of -100.64999999999999
+Epsilon = 0.05
+Evaluation at timestep 570003 returned a mean returns of -115.94999999999999
+Epsilon = 0.05
+Evaluation at timestep 580036 returned a mean returns of -122.41999999999999
+Epsilon = 0.05
+Evaluation at timestep 590110 returned a mean returns of -104.19999999999996
+Epsilon = 0.05
+Evaluation at timestep 600101 returned a mean returns of -120.1500000000001
+Epsilon = 0.05
+Evaluation at timestep 610017 returned a mean returns of -106.79999999999997
+Epsilon = 0.05
+Evaluation at timestep 620107 returned a mean returns of -113.53999999999998
+Epsilon = 0.05
+Evaluation at timestep 630079 returned a mean returns of -127.23000000000002
+Epsilon = 0.05
+Evaluation at timestep 640042 returned a mean returns of -120.06999999999995
+Epsilon = 0.05
+Evaluation at timestep 650072 returned a mean returns of -116.03000000000002
+Epsilon = 0.05
+Evaluation at timestep 660080 returned a mean returns of -122.90999999999993
+Epsilon = 0.05
+Evaluation at timestep 670093 returned a mean returns of -119.48000000000002
+Epsilon = 0.05
+Evaluation at timestep 680121 returned a mean returns of -122.90000000000002
+Epsilon = 0.05
+Evaluation at timestep 690103 returned a mean returns of -113.95999999999995
+Epsilon = 0.05
+Evaluation at timestep 700069 returned a mean returns of -142.29999999999995
+Epsilon = 0.05
+
+Training iteration: 6/10
+Evaluation at timestep 10000 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 20081 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 30129 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 40140 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 50031 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 60030 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 70146 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 80063 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 90019 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 100179 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 110005 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 120148 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 130012 returned a mean returns of -193.4
+Epsilon = 0.05
+Evaluation at timestep 140090 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 150075 returned a mean returns of -192.26
+Epsilon = 0.05
+Evaluation at timestep 160060 returned a mean returns of -135.99999999999997
+Epsilon = 0.05
+Evaluation at timestep 170165 returned a mean returns of -134.46
+Epsilon = 0.05
+Evaluation at timestep 180073 returned a mean returns of -186.20000000000007
+Epsilon = 0.05
+Evaluation at timestep 190160 returned a mean returns of -193.57000000000002
+Epsilon = 0.05
+Evaluation at timestep 200134 returned a mean returns of -146.31
+Epsilon = 0.05
+Evaluation at timestep 210038 returned a mean returns of -131.04999999999998
+Epsilon = 0.05
+Evaluation at timestep 220097 returned a mean returns of -149.73999999999998
+Epsilon = 0.05
+Evaluation at timestep 230010 returned a mean returns of -164.11999999999998
+Epsilon = 0.05
+Evaluation at timestep 240005 returned a mean returns of -143.05
+Epsilon = 0.05
+Evaluation at timestep 250067 returned a mean returns of -134.98000000000002
+Epsilon = 0.05
+Evaluation at timestep 260067 returned a mean returns of -154.95000000000002
+Epsilon = 0.05
+Evaluation at timestep 270140 returned a mean returns of -132.72000000000006
+Epsilon = 0.05
+Evaluation at timestep 280034 returned a mean returns of -132.37999999999997
+Epsilon = 0.05
+Evaluation at timestep 290078 returned a mean returns of -126.46000000000004
+Epsilon = 0.05
+Evaluation at timestep 300037 returned a mean returns of -134.29999999999998
+Epsilon = 0.05
+Evaluation at timestep 310087 returned a mean returns of -118.38999999999996
+Epsilon = 0.05
+Evaluation at timestep 320085 returned a mean returns of -179.15000000000003
+Epsilon = 0.05
+Evaluation at timestep 330080 returned a mean returns of -109.34999999999998
+Epsilon = 0.05
+Evaluation at timestep 340011 returned a mean returns of -110.93999999999988
+Epsilon = 0.05
+Evaluation at timestep 350037 returned a mean returns of -112.04000000000003
+Epsilon = 0.05
+Evaluation at timestep 360108 returned a mean returns of -116.72000000000001
+Epsilon = 0.05
+Evaluation at timestep 370094 returned a mean returns of -116.11000000000006
+Epsilon = 0.05
+Evaluation at timestep 380073 returned a mean returns of -116.42999999999998
+Epsilon = 0.05
+Evaluation at timestep 390034 returned a mean returns of -108.62000000000003
+Epsilon = 0.05
+Evaluation at timestep 400032 returned a mean returns of -135.77000000000007
+Epsilon = 0.05
+Evaluation at timestep 410091 returned a mean returns of -118.14999999999999
+Epsilon = 0.05
+Evaluation at timestep 420080 returned a mean returns of -132.39
+Epsilon = 0.05
+Evaluation at timestep 430083 returned a mean returns of -117.31000000000003
+Epsilon = 0.05
+Evaluation at timestep 440079 returned a mean returns of -129.44000000000005
+Epsilon = 0.05
+Evaluation at timestep 450110 returned a mean returns of -123.71000000000004
+Epsilon = 0.05
+Evaluation at timestep 460084 returned a mean returns of -120.10000000000007
+Epsilon = 0.05
+Evaluation at timestep 470075 returned a mean returns of -123.89000000000003
+Epsilon = 0.05
+Evaluation at timestep 480071 returned a mean returns of -117.10000000000004
+Epsilon = 0.05
+Evaluation at timestep 490007 returned a mean returns of -197.07000000000005
+Epsilon = 0.05
+Evaluation at timestep 500087 returned a mean returns of -113.17000000000002
+Epsilon = 0.05
+Evaluation at timestep 510055 returned a mean returns of -119.86000000000006
+Epsilon = 0.05
+Evaluation at timestep 520117 returned a mean returns of -130.27
+Epsilon = 0.05
+Evaluation at timestep 530146 returned a mean returns of -108.05000000000003
+Epsilon = 0.05
+Evaluation at timestep 540106 returned a mean returns of -104.28
+Epsilon = 0.05
+Evaluation at timestep 550061 returned a mean returns of -131.80999999999995
+Epsilon = 0.05
+Evaluation at timestep 560020 returned a mean returns of -162.49000000000004
+Epsilon = 0.05
+Evaluation at timestep 570123 returned a mean returns of -126.03999999999999
+Epsilon = 0.05
+Evaluation at timestep 580011 returned a mean returns of -123.30000000000005
+Epsilon = 0.05
+Evaluation at timestep 590013 returned a mean returns of -110.38000000000001
+Epsilon = 0.05
+Evaluation at timestep 600053 returned a mean returns of -109.67999999999995
+Epsilon = 0.05
+Evaluation at timestep 610047 returned a mean returns of -105.19000000000004
+Epsilon = 0.05
+Evaluation at timestep 620136 returned a mean returns of -114.85999999999999
+Epsilon = 0.05
+Evaluation at timestep 630037 returned a mean returns of -120.55999999999992
+Epsilon = 0.05
+Evaluation at timestep 640002 returned a mean returns of -127.88
+Epsilon = 0.05
+Evaluation at timestep 650047 returned a mean returns of -136.11000000000007
+Epsilon = 0.05
+Evaluation at timestep 660175 returned a mean returns of -127.93000000000005
+Epsilon = 0.05
+Evaluation at timestep 670124 returned a mean returns of -172.71999999999994
+Epsilon = 0.05
+Evaluation at timestep 680010 returned a mean returns of -140.22000000000008
+Epsilon = 0.05
+Evaluation at timestep 690083 returned a mean returns of -141.51000000000008
+Epsilon = 0.05
+Evaluation at timestep 700063 returned a mean returns of -127.24000000000004
+Epsilon = 0.05
+
+Training iteration: 7/10
+Evaluation at timestep 10000 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 20023 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 30157 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 40100 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 50033 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 60170 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 70083 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 80141 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 90073 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 100009 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 110069 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 120065 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 130143 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 140123 returned a mean returns of -197.64999999999998
+Epsilon = 0.05
+Evaluation at timestep 150016 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 160122 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 170065 returned a mean returns of -149.21999999999997
+Epsilon = 0.05
+Evaluation at timestep 180008 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 190037 returned a mean returns of -156.71
+Epsilon = 0.05
+Evaluation at timestep 200028 returned a mean returns of -197.7299999999999
+Epsilon = 0.05
+Evaluation at timestep 210068 returned a mean returns of -182.11
+Epsilon = 0.05
+Evaluation at timestep 220079 returned a mean returns of -175.09000000000003
+Epsilon = 0.05
+Evaluation at timestep 230008 returned a mean returns of -159.56999999999994
+Epsilon = 0.05
+Evaluation at timestep 240024 returned a mean returns of -170.04000000000005
+Epsilon = 0.05
+Evaluation at timestep 250073 returned a mean returns of -155.77999999999997
+Epsilon = 0.05
+Evaluation at timestep 260016 returned a mean returns of -153.68
+Epsilon = 0.05
+Evaluation at timestep 270003 returned a mean returns of -136.70000000000007
+Epsilon = 0.05
+Evaluation at timestep 280066 returned a mean returns of -174.33999999999997
+Epsilon = 0.05
+Evaluation at timestep 290173 returned a mean returns of -152.35000000000002
+Epsilon = 0.05
+Evaluation at timestep 300134 returned a mean returns of -135.36000000000007
+Epsilon = 0.05
+Evaluation at timestep 310136 returned a mean returns of -125.27999999999987
+Epsilon = 0.05
+Evaluation at timestep 320070 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 330127 returned a mean returns of -134.10999999999996
+Epsilon = 0.05
+Evaluation at timestep 340045 returned a mean returns of -133.57
+Epsilon = 0.05
+Evaluation at timestep 350112 returned a mean returns of -118.62999999999994
+Epsilon = 0.05
+Evaluation at timestep 360000 returned a mean returns of -125.61000000000004
+Epsilon = 0.05
+Evaluation at timestep 370107 returned a mean returns of -113.89999999999996
+Epsilon = 0.05
+Evaluation at timestep 380021 returned a mean returns of -108.00000000000007
+Epsilon = 0.05
+Evaluation at timestep 390047 returned a mean returns of -120.80000000000003
+Epsilon = 0.05
+Evaluation at timestep 400015 returned a mean returns of -139.45999999999995
+Epsilon = 0.05
+Evaluation at timestep 410087 returned a mean returns of -121.43000000000002
+Epsilon = 0.05
+Evaluation at timestep 420094 returned a mean returns of -142.76999999999995
+Epsilon = 0.05
+Evaluation at timestep 430074 returned a mean returns of -141.56000000000006
+Epsilon = 0.05
+Evaluation at timestep 440015 returned a mean returns of -127.42999999999999
+Epsilon = 0.05
+Evaluation at timestep 450005 returned a mean returns of -132.32999999999998
+Epsilon = 0.05
+Evaluation at timestep 460161 returned a mean returns of -166.07000000000002
+Epsilon = 0.05
+Evaluation at timestep 470066 returned a mean returns of -124.07000000000004
+Epsilon = 0.05
+Evaluation at timestep 480070 returned a mean returns of -109.30999999999999
+Epsilon = 0.05
+Evaluation at timestep 490053 returned a mean returns of -101.77999999999997
+Epsilon = 0.05
+Evaluation at timestep 500052 returned a mean returns of -106.99
+Epsilon = 0.05
+Evaluation at timestep 510082 returned a mean returns of -105.67999999999999
+Epsilon = 0.05
+Evaluation at timestep 520102 returned a mean returns of -134.70000000000002
+Epsilon = 0.05
+Evaluation at timestep 530004 returned a mean returns of -106.86000000000004
+Epsilon = 0.05
+Evaluation at timestep 540004 returned a mean returns of -113.81
+Epsilon = 0.05
+Evaluation at timestep 550011 returned a mean returns of -128.01
+Epsilon = 0.05
+Evaluation at timestep 560017 returned a mean returns of -109.55000000000003
+Epsilon = 0.05
+Evaluation at timestep 570113 returned a mean returns of -103.44999999999996
+Epsilon = 0.05
+Evaluation at timestep 580059 returned a mean returns of -105.89999999999992
+Epsilon = 0.05
+Evaluation at timestep 590098 returned a mean returns of -109.83000000000003
+Epsilon = 0.05
+Evaluation at timestep 600103 returned a mean returns of -106.99999999999994
+Epsilon = 0.05
+Evaluation at timestep 610018 returned a mean returns of -108.36999999999999
+Epsilon = 0.05
+Evaluation at timestep 620101 returned a mean returns of -105.14999999999998
+Epsilon = 0.05
+Evaluation at timestep 630019 returned a mean returns of -108.10000000000001
+Epsilon = 0.05
+Evaluation at timestep 640082 returned a mean returns of -112.60999999999999
+Epsilon = 0.05
+Evaluation at timestep 650094 returned a mean returns of -108.19
+Epsilon = 0.05
+Evaluation at timestep 660027 returned a mean returns of -103.48999999999998
+Epsilon = 0.05
+Evaluation at timestep 670054 returned a mean returns of -113.96000000000004
+Epsilon = 0.05
+Evaluation at timestep 680024 returned a mean returns of -112.66999999999997
+Epsilon = 0.05
+Evaluation at timestep 690008 returned a mean returns of -108.44999999999999
+Epsilon = 0.05
+Evaluation at timestep 700031 returned a mean returns of -128.58000000000015
+Epsilon = 0.05
+
+Training iteration: 8/10
+Evaluation at timestep 10000 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 20000 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 30000 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 40000 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 50147 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 60147 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 70078 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 80168 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 90127 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 100012 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 110191 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 120106 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 130165 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 140000 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 150171 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 160124 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 170116 returned a mean returns of -196.55
+Epsilon = 0.05
+Evaluation at timestep 180118 returned a mean returns of -136.82
+Epsilon = 0.05
+Evaluation at timestep 190138 returned a mean returns of -185.69999999999996
+Epsilon = 0.05
+Evaluation at timestep 200126 returned a mean returns of -136.64999999999998
+Epsilon = 0.05
+Evaluation at timestep 210130 returned a mean returns of -152.14000000000004
+Epsilon = 0.05
+Evaluation at timestep 220125 returned a mean returns of -128.65
+Epsilon = 0.05
+Evaluation at timestep 230072 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 240057 returned a mean returns of -149.41999999999996
+Epsilon = 0.05
+Evaluation at timestep 250040 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 260091 returned a mean returns of -174.61999999999995
+Epsilon = 0.05
+Evaluation at timestep 270142 returned a mean returns of -196.76
+Epsilon = 0.05
+Evaluation at timestep 280022 returned a mean returns of -143.79999999999998
+Epsilon = 0.05
+Evaluation at timestep 290071 returned a mean returns of -143.27
+Epsilon = 0.05
+Evaluation at timestep 300036 returned a mean returns of -130.86999999999998
+Epsilon = 0.05
+Evaluation at timestep 310069 returned a mean returns of -126.32000000000001
+Epsilon = 0.05
+Evaluation at timestep 320101 returned a mean returns of -123.67999999999999
+Epsilon = 0.05
+Evaluation at timestep 330028 returned a mean returns of -174.23999999999998
+Epsilon = 0.05
+Evaluation at timestep 340099 returned a mean returns of -191.35999999999999
+Epsilon = 0.05
+Evaluation at timestep 350116 returned a mean returns of -146.38000000000002
+Epsilon = 0.05
+Evaluation at timestep 360048 returned a mean returns of -137.85
+Epsilon = 0.05
+Evaluation at timestep 370048 returned a mean returns of -135.49999999999997
+Epsilon = 0.05
+Evaluation at timestep 380071 returned a mean returns of -113.21999999999997
+Epsilon = 0.05
+Evaluation at timestep 390117 returned a mean returns of -110.52
+Epsilon = 0.05
+Evaluation at timestep 400033 returned a mean returns of -111.60000000000002
+Epsilon = 0.05
+Evaluation at timestep 410016 returned a mean returns of -123.26999999999995
+Epsilon = 0.05
+Evaluation at timestep 420105 returned a mean returns of -124.33999999999999
+Epsilon = 0.05
+Evaluation at timestep 430001 returned a mean returns of -128.00000000000003
+Epsilon = 0.05
+Evaluation at timestep 440072 returned a mean returns of -132.95
+Epsilon = 0.05
+Evaluation at timestep 450010 returned a mean returns of -131.35999999999993
+Epsilon = 0.05
+Evaluation at timestep 460101 returned a mean returns of -127.66000000000007
+Epsilon = 0.05
+Evaluation at timestep 470000 returned a mean returns of -130.95000000000007
+Epsilon = 0.05
+Evaluation at timestep 480147 returned a mean returns of -136.24
+Epsilon = 0.05
+Evaluation at timestep 490110 returned a mean returns of -133.17
+Epsilon = 0.05
+Evaluation at timestep 500045 returned a mean returns of -144.29999999999998
+Epsilon = 0.05
+Evaluation at timestep 510148 returned a mean returns of -136.37000000000006
+Epsilon = 0.05
+Evaluation at timestep 520058 returned a mean returns of -128.92
+Epsilon = 0.05
+Evaluation at timestep 530007 returned a mean returns of -131.02000000000004
+Epsilon = 0.05
+Evaluation at timestep 540023 returned a mean returns of -128.78
+Epsilon = 0.05
+Evaluation at timestep 550179 returned a mean returns of -159.59000000000012
+Epsilon = 0.05
+Evaluation at timestep 560079 returned a mean returns of -136.97000000000006
+Epsilon = 0.05
+Evaluation at timestep 570018 returned a mean returns of -109.53999999999988
+Epsilon = 0.05
+Evaluation at timestep 580072 returned a mean returns of -126.59000000000009
+Epsilon = 0.05
+Evaluation at timestep 590127 returned a mean returns of -134.93000000000004
+Epsilon = 0.05
+Evaluation at timestep 600144 returned a mean returns of -132.10000000000005
+Epsilon = 0.05
+Evaluation at timestep 610114 returned a mean returns of -173.22
+Epsilon = 0.05
+Evaluation at timestep 620120 returned a mean returns of -110.8500000000001
+Epsilon = 0.05
+Evaluation at timestep 630090 returned a mean returns of -100.21000000000002
+Epsilon = 0.05
+Evaluation at timestep 640019 returned a mean returns of -127.64999999999989
+Epsilon = 0.05
+Evaluation at timestep 650027 returned a mean returns of -129.97999999999996
+Epsilon = 0.05
+Evaluation at timestep 660006 returned a mean returns of -140.04
+Epsilon = 0.05
+Evaluation at timestep 670092 returned a mean returns of -126.72000000000004
+Epsilon = 0.05
+Evaluation at timestep 680009 returned a mean returns of -119.1199999999999
+Epsilon = 0.05
+Evaluation at timestep 690041 returned a mean returns of -110.07000000000008
+Epsilon = 0.05
+Evaluation at timestep 700027 returned a mean returns of -112.96
+Epsilon = 0.05
+
+Training iteration: 9/10
+Evaluation at timestep 10000 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 20193 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 30193 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 40186 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 50136 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 60136 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 70122 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 80122 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 90064 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 100009 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 110002 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 120129 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 130012 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 140139 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 150025 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 160036 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 170061 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 180086 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 190186 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 200105 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 210013 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 220063 returned a mean returns of -195.10000000000002
+Epsilon = 0.05
+Evaluation at timestep 230092 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 240037 returned a mean returns of -124.62000000000002
+Epsilon = 0.05
+Evaluation at timestep 250151 returned a mean returns of -152.27
+Epsilon = 0.05
+Evaluation at timestep 260058 returned a mean returns of -143.00999999999996
+Epsilon = 0.05
+Evaluation at timestep 270028 returned a mean returns of -140.59000000000003
+Epsilon = 0.05
+Evaluation at timestep 280103 returned a mean returns of -132.32
+Epsilon = 0.05
+Evaluation at timestep 290109 returned a mean returns of -133.22999999999993
+Epsilon = 0.05
+Evaluation at timestep 300030 returned a mean returns of -131.48999999999998
+Epsilon = 0.05
+Evaluation at timestep 310104 returned a mean returns of -134.64000000000001
+Epsilon = 0.05
+Evaluation at timestep 320045 returned a mean returns of -130.81
+Epsilon = 0.05
+Evaluation at timestep 330044 returned a mean returns of -123.77000000000008
+Epsilon = 0.05
+Evaluation at timestep 340036 returned a mean returns of -134.73000000000008
+Epsilon = 0.05
+Evaluation at timestep 350133 returned a mean returns of -131.36000000000004
+Epsilon = 0.05
+Evaluation at timestep 360056 returned a mean returns of -128.17999999999998
+Epsilon = 0.05
+Evaluation at timestep 370024 returned a mean returns of -130.24999999999997
+Epsilon = 0.05
+Evaluation at timestep 380005 returned a mean returns of -129.27000000000004
+Epsilon = 0.05
+Evaluation at timestep 390115 returned a mean returns of -136.98
+Epsilon = 0.05
+Evaluation at timestep 400143 returned a mean returns of -138.36000000000007
+Epsilon = 0.05
+Evaluation at timestep 410099 returned a mean returns of -134.12
+Epsilon = 0.05
+Evaluation at timestep 420108 returned a mean returns of -126.70000000000007
+Epsilon = 0.05
+Evaluation at timestep 430009 returned a mean returns of -132.75000000000003
+Epsilon = 0.05
+Evaluation at timestep 440007 returned a mean returns of -115.29000000000003
+Epsilon = 0.05
+Evaluation at timestep 450001 returned a mean returns of -132.64
+Epsilon = 0.05
+Evaluation at timestep 460066 returned a mean returns of -126.52999999999996
+Epsilon = 0.05
+Evaluation at timestep 470066 returned a mean returns of -138.64000000000007
+Epsilon = 0.05
+Evaluation at timestep 480094 returned a mean returns of -136.98999999999984
+Epsilon = 0.05
+Evaluation at timestep 490077 returned a mean returns of -120.16000000000011
+Epsilon = 0.05
+Evaluation at timestep 500085 returned a mean returns of -122.99
+Epsilon = 0.05
+Evaluation at timestep 510058 returned a mean returns of -119.61999999999995
+Epsilon = 0.05
+Evaluation at timestep 520132 returned a mean returns of -126.55
+Epsilon = 0.05
+Evaluation at timestep 530095 returned a mean returns of -123.29
+Epsilon = 0.05
+Evaluation at timestep 540013 returned a mean returns of -139.41999999999996
+Epsilon = 0.05
+Evaluation at timestep 550029 returned a mean returns of -129.29999999999998
+Epsilon = 0.05
+Evaluation at timestep 560047 returned a mean returns of -156.85999999999999
+Epsilon = 0.05
+Evaluation at timestep 570077 returned a mean returns of -127.11999999999998
+Epsilon = 0.05
+Evaluation at timestep 580112 returned a mean returns of -126.68000000000005
+Epsilon = 0.05
+Evaluation at timestep 590018 returned a mean returns of -129.99999999999997
+Epsilon = 0.05
+Evaluation at timestep 600041 returned a mean returns of -124.42
+Epsilon = 0.05
+Evaluation at timestep 610044 returned a mean returns of -112.74999999999997
+Epsilon = 0.05
+Evaluation at timestep 620025 returned a mean returns of -126.10999999999999
+Epsilon = 0.05
+Evaluation at timestep 630152 returned a mean returns of -100.59000000000002
+Epsilon = 0.05
+Evaluation at timestep 640099 returned a mean returns of -99.72000000000008
+Epsilon = 0.05
+Evaluation at timestep 650066 returned a mean returns of -105.03000000000004
+Epsilon = 0.05
+Evaluation at timestep 660018 returned a mean returns of -111.61000000000003
+Epsilon = 0.05
+Evaluation at timestep 670056 returned a mean returns of -102.14000000000011
+Epsilon = 0.05
+Evaluation at timestep 680177 returned a mean returns of -104.53000000000006
+Epsilon = 0.05
+Evaluation at timestep 690017 returned a mean returns of -138.31
+Epsilon = 0.05
+Evaluation at timestep 700087 returned a mean returns of -124.19999999999999
+Epsilon = 0.05
+
+Training iteration: 10/10
+Evaluation at timestep 10179 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 20176 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 30074 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 40034 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 50125 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 60091 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 70170 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 80036 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 90005 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 100142 returned a mean returns of -197.77999999999997
+Epsilon = 0.05
+Evaluation at timestep 110048 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 120091 returned a mean returns of -150.93999999999997
+Epsilon = 0.05
+Evaluation at timestep 130167 returned a mean returns of -166.81999999999996
+Epsilon = 0.05
+Evaluation at timestep 140014 returned a mean returns of -160.8
+Epsilon = 0.05
+Evaluation at timestep 150124 returned a mean returns of -138.42
+Epsilon = 0.05
+Evaluation at timestep 160000 returned a mean returns of -196.28
+Epsilon = 0.05
+Evaluation at timestep 170103 returned a mean returns of -132.87999999999994
+Epsilon = 0.05
+Evaluation at timestep 180074 returned a mean returns of -190.50999999999996
+Epsilon = 0.05
+Evaluation at timestep 190163 returned a mean returns of -159.34000000000006
+Epsilon = 0.05
+Evaluation at timestep 200136 returned a mean returns of -178.29
+Epsilon = 0.05
+Evaluation at timestep 210006 returned a mean returns of -138.87000000000003
+Epsilon = 0.05
+Evaluation at timestep 220001 returned a mean returns of -134.54999999999995
+Epsilon = 0.05
+Evaluation at timestep 230132 returned a mean returns of -130.45000000000002
+Epsilon = 0.05
+Evaluation at timestep 240113 returned a mean returns of -125.32000000000001
+Epsilon = 0.05
+Evaluation at timestep 250019 returned a mean returns of -126.61
+Epsilon = 0.05
+Evaluation at timestep 260061 returned a mean returns of -134.10999999999996
+Epsilon = 0.05
+Evaluation at timestep 270054 returned a mean returns of -151.33
+Epsilon = 0.05
+Evaluation at timestep 280115 returned a mean returns of -126.19999999999999
+Epsilon = 0.05
+Evaluation at timestep 290058 returned a mean returns of -146.59999999999997
+Epsilon = 0.05
+Evaluation at timestep 300148 returned a mean returns of -157.01999999999995
+Epsilon = 0.05
+Evaluation at timestep 310053 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 320061 returned a mean returns of -124.79999999999997
+Epsilon = 0.05
+Evaluation at timestep 330084 returned a mean returns of -113.14000000000004
+Epsilon = 0.05
+Evaluation at timestep 340015 returned a mean returns of -127.94000000000001
+Epsilon = 0.05
+Evaluation at timestep 350090 returned a mean returns of -109.99000000000001
+Epsilon = 0.05
+Evaluation at timestep 360030 returned a mean returns of -172.71999999999994
+Epsilon = 0.05
+Evaluation at timestep 370116 returned a mean returns of -112.36000000000003
+Epsilon = 0.05
+Evaluation at timestep 380079 returned a mean returns of -112.58999999999996
+Epsilon = 0.05
+Evaluation at timestep 390041 returned a mean returns of -126.60999999999989
+Epsilon = 0.05
+Evaluation at timestep 400002 returned a mean returns of -123.34000000000007
+Epsilon = 0.05
+Evaluation at timestep 410120 returned a mean returns of -128.41000000000005
+Epsilon = 0.05
+Evaluation at timestep 420071 returned a mean returns of -133.84999999999994
+Epsilon = 0.05
+Evaluation at timestep 430030 returned a mean returns of -139.3
+Epsilon = 0.05
+Evaluation at timestep 440129 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 450020 returned a mean returns of -138.40000000000003
+Epsilon = 0.05
+Evaluation at timestep 460154 returned a mean returns of -177.41999999999996
+Epsilon = 0.05
+Evaluation at timestep 470096 returned a mean returns of -127.06000000000003
+Epsilon = 0.05
+Evaluation at timestep 480022 returned a mean returns of -149.54999999999995
+Epsilon = 0.05
+Evaluation at timestep 490116 returned a mean returns of -131.42999999999995
+Epsilon = 0.05
+Evaluation at timestep 500137 returned a mean returns of -124.05000000000007
+Epsilon = 0.05
+Evaluation at timestep 510058 returned a mean returns of -106.72999999999995
+Epsilon = 0.05
+Evaluation at timestep 520009 returned a mean returns of -122.11999999999999
+Epsilon = 0.05
+Evaluation at timestep 530001 returned a mean returns of -193.47
+Epsilon = 0.05
+Evaluation at timestep 540048 returned a mean returns of -115.98
+Epsilon = 0.05
+Evaluation at timestep 550103 returned a mean returns of -104.58999999999997
+Epsilon = 0.05
+Evaluation at timestep 560004 returned a mean returns of -114.1
+Epsilon = 0.05
+Evaluation at timestep 570003 returned a mean returns of -104.58999999999999
+Epsilon = 0.05
+Evaluation at timestep 580156 returned a mean returns of -142.01999999999995
+Epsilon = 0.05
+Evaluation at timestep 590092 returned a mean returns of -125.15000000000002
+Epsilon = 0.05
+Evaluation at timestep 600094 returned a mean returns of -118.58999999999999
+Epsilon = 0.05
+Evaluation at timestep 610019 returned a mean returns of -128.06
+Epsilon = 0.05
+Evaluation at timestep 620012 returned a mean returns of -122.35
+Epsilon = 0.05
+Evaluation at timestep 630009 returned a mean returns of -120.89000000000009
+Epsilon = 0.05
+Evaluation at timestep 640019 returned a mean returns of -122.36999999999999
+Epsilon = 0.05
+Evaluation at timestep 650002 returned a mean returns of -123.13999999999992
+Epsilon = 0.05
+Evaluation at timestep 660079 returned a mean returns of -117.90000000000003
+Epsilon = 0.05
+Evaluation at timestep 670018 returned a mean returns of -126.65000000000002
+Epsilon = 0.05
+Evaluation at timestep 680012 returned a mean returns of -134.3700000000001
+Epsilon = 0.05
+Evaluation at timestep 690141 returned a mean returns of -183.82000000000002
+Epsilon = 0.05
+Evaluation at timestep 700089 returned a mean returns of -113.26000000000013
+Epsilon = 0.05
+Finished run with hyperparameters epsilon_start:1.0_epsilon_decay:1e-05. Mean final score: -121.17900000000002 +- 3.8772523060080184
+Final epsilon: 0.05
+
+Starting new run...
+
+Training iteration: 1/10
+Evaluation at timestep 10000 returned a mean returns of -200.0
+Epsilon = 0.7845840978967507
+Evaluation at timestep 20000 returned a mean returns of -200.0
+Epsilon = 0.3751954625412529
+Evaluation at timestep 30134 returned a mean returns of -200.0
+Epsilon = 0.10629647898703222
+Evaluation at timestep 40089 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 50002 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 60175 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 70023 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 80082 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 90062 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 100066 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 110168 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 120051 returned a mean returns of -190.53
+Epsilon = 0.05
+Evaluation at timestep 130161 returned a mean returns of -153.84
+Epsilon = 0.05
+Evaluation at timestep 140037 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 150132 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 160132 returned a mean returns of -135.53999999999996
+Epsilon = 0.05
+Evaluation at timestep 170029 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 180066 returned a mean returns of -136.3500000000001
+Epsilon = 0.05
+Evaluation at timestep 190098 returned a mean returns of -158.16000000000003
+Epsilon = 0.05
+Evaluation at timestep 200023 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 210034 returned a mean returns of -137.73
+Epsilon = 0.05
+Evaluation at timestep 220101 returned a mean returns of -138.97
+Epsilon = 0.05
+Evaluation at timestep 230125 returned a mean returns of -141.69
+Epsilon = 0.05
+Evaluation at timestep 240055 returned a mean returns of -138.22999999999996
+Epsilon = 0.05
+Evaluation at timestep 250032 returned a mean returns of -144.60000000000002
+Epsilon = 0.05
+Evaluation at timestep 260064 returned a mean returns of -134.3799999999999
+Epsilon = 0.05
+Evaluation at timestep 270021 returned a mean returns of -125.88999999999997
+Epsilon = 0.05
+Evaluation at timestep 280068 returned a mean returns of -123.39000000000003
+Epsilon = 0.05
+Evaluation at timestep 290024 returned a mean returns of -146.17
+Epsilon = 0.05
+Evaluation at timestep 300092 returned a mean returns of -118.73999999999988
+Epsilon = 0.05
+Evaluation at timestep 310037 returned a mean returns of -176.59000000000003
+Epsilon = 0.05
+Evaluation at timestep 320078 returned a mean returns of -168.39999999999995
+Epsilon = 0.05
+Evaluation at timestep 330107 returned a mean returns of -105.47
+Epsilon = 0.05
+Evaluation at timestep 340089 returned a mean returns of -195.04000000000002
+Epsilon = 0.05
+Evaluation at timestep 350113 returned a mean returns of -135.99000000000007
+Epsilon = 0.05
+Evaluation at timestep 360078 returned a mean returns of -138.88999999999996
+Epsilon = 0.05
+Evaluation at timestep 370080 returned a mean returns of -132.08999999999995
+Epsilon = 0.05
+Evaluation at timestep 380104 returned a mean returns of -152.00000000000003
+Epsilon = 0.05
+Evaluation at timestep 390143 returned a mean returns of -139.05000000000004
+Epsilon = 0.05
+Evaluation at timestep 400104 returned a mean returns of -132.48
+Epsilon = 0.05
+Evaluation at timestep 410157 returned a mean returns of -132.52000000000004
+Epsilon = 0.05
+Evaluation at timestep 420170 returned a mean returns of -187.28000000000014
+Epsilon = 0.05
+Evaluation at timestep 430167 returned a mean returns of -133.07999999999998
+Epsilon = 0.05
+Evaluation at timestep 440146 returned a mean returns of -122.82999999999998
+Epsilon = 0.05
+Evaluation at timestep 450003 returned a mean returns of -126.89000000000004
+Epsilon = 0.05
+Evaluation at timestep 460013 returned a mean returns of -141.84000000000003
+Epsilon = 0.05
+Evaluation at timestep 470030 returned a mean returns of -122.75999999999999
+Epsilon = 0.05
+Evaluation at timestep 480017 returned a mean returns of -126.78999999999999
+Epsilon = 0.05
+Evaluation at timestep 490015 returned a mean returns of -124.14
+Epsilon = 0.05
+Evaluation at timestep 500077 returned a mean returns of -110.14999999999995
+Epsilon = 0.05
+Evaluation at timestep 510066 returned a mean returns of -115.94999999999995
+Epsilon = 0.05
+Evaluation at timestep 520004 returned a mean returns of -150.93
+Epsilon = 0.05
+Evaluation at timestep 530105 returned a mean returns of -106.50000000000004
+Epsilon = 0.05
+Evaluation at timestep 540084 returned a mean returns of -108.39000000000003
+Epsilon = 0.05
+Evaluation at timestep 550095 returned a mean returns of -133.60000000000005
+Epsilon = 0.05
+Evaluation at timestep 560130 returned a mean returns of -132.2999999999999
+Epsilon = 0.05
+Evaluation at timestep 570115 returned a mean returns of -126.29000000000006
+Epsilon = 0.05
+Evaluation at timestep 580113 returned a mean returns of -124.20000000000007
+Epsilon = 0.05
+Evaluation at timestep 590093 returned a mean returns of -117.33999999999996
+Epsilon = 0.05
+Evaluation at timestep 600146 returned a mean returns of -131.32000000000002
+Epsilon = 0.05
+Evaluation at timestep 610050 returned a mean returns of -129.26000000000008
+Epsilon = 0.05
+Evaluation at timestep 620037 returned a mean returns of -110.54999999999991
+Epsilon = 0.05
+Evaluation at timestep 630135 returned a mean returns of -133.88999999999996
+Epsilon = 0.05
+Evaluation at timestep 640127 returned a mean returns of -138.32999999999998
+Epsilon = 0.05
+Evaluation at timestep 650055 returned a mean returns of -138.64000000000001
+Epsilon = 0.05
+Evaluation at timestep 660118 returned a mean returns of -139.31
+Epsilon = 0.05
+Evaluation at timestep 670077 returned a mean returns of -119.96999999999996
+Epsilon = 0.05
+Evaluation at timestep 680043 returned a mean returns of -103.69999999999993
+Epsilon = 0.05
+Evaluation at timestep 690029 returned a mean returns of -125.81999999999998
+Epsilon = 0.05
+Evaluation at timestep 700162 returned a mean returns of -100.89000000000006
+Epsilon = 0.05
+
+Training iteration: 2/10
+Evaluation at timestep 10000 returned a mean returns of -200.0
+Epsilon = 0.7845840978967507
+Evaluation at timestep 20000 returned a mean returns of -200.0
+Epsilon = 0.3751954625412529
+Evaluation at timestep 30000 returned a mean returns of -200.0
+Epsilon = 0.10935892390992964
+Evaluation at timestep 40000 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 50197 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 60108 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 70033 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 80120 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 90029 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 100105 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 110069 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 120106 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 130109 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 140011 returned a mean returns of -195.69000000000005
+Epsilon = 0.05
+Evaluation at timestep 150012 returned a mean returns of -173.80999999999997
+Epsilon = 0.05
+Evaluation at timestep 160137 returned a mean returns of -130.11000000000004
+Epsilon = 0.05
+Evaluation at timestep 170028 returned a mean returns of -125.99000000000007
+Epsilon = 0.05
+Evaluation at timestep 180127 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 190016 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 200082 returned a mean returns of -172.83000000000004
+Epsilon = 0.05
+Evaluation at timestep 210055 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 220069 returned a mean returns of -162.87
+Epsilon = 0.05
+Evaluation at timestep 230015 returned a mean returns of -186.74
+Epsilon = 0.05
+Evaluation at timestep 240091 returned a mean returns of -136.09000000000003
+Epsilon = 0.05
+Evaluation at timestep 250124 returned a mean returns of -153.36
+Epsilon = 0.05
+Evaluation at timestep 260074 returned a mean returns of -121.36999999999995
+Epsilon = 0.05
+Evaluation at timestep 270024 returned a mean returns of -163.35999999999999
+Epsilon = 0.05
+Evaluation at timestep 280147 returned a mean returns of -123.34999999999995
+Epsilon = 0.05
+Evaluation at timestep 290057 returned a mean returns of -104.74999999999999
+Epsilon = 0.05
+Evaluation at timestep 300073 returned a mean returns of -104.12000000000002
+Epsilon = 0.05
+Evaluation at timestep 310022 returned a mean returns of -113.38
+Epsilon = 0.05
+Evaluation at timestep 320072 returned a mean returns of -124.89000000000004
+Epsilon = 0.05
+Evaluation at timestep 330054 returned a mean returns of -117.62000000000005
+Epsilon = 0.05
+Evaluation at timestep 340029 returned a mean returns of -132.86000000000004
+Epsilon = 0.05
+Evaluation at timestep 350060 returned a mean returns of -128.01
+Epsilon = 0.05
+Evaluation at timestep 360089 returned a mean returns of -149.09999999999988
+Epsilon = 0.05
+Evaluation at timestep 370085 returned a mean returns of -109.94000000000001
+Epsilon = 0.05
+Evaluation at timestep 380127 returned a mean returns of -162.20000000000002
+Epsilon = 0.05
+Evaluation at timestep 390083 returned a mean returns of -115.78000000000009
+Epsilon = 0.05
+Evaluation at timestep 400142 returned a mean returns of -130.06
+Epsilon = 0.05
+Evaluation at timestep 410053 returned a mean returns of -116.40999999999993
+Epsilon = 0.05
+Evaluation at timestep 420019 returned a mean returns of -126.81
+Epsilon = 0.05
+Evaluation at timestep 430003 returned a mean returns of -131.10000000000008
+Epsilon = 0.05
+Evaluation at timestep 440080 returned a mean returns of -125.16999999999997
+Epsilon = 0.05
+Evaluation at timestep 450144 returned a mean returns of -126.88999999999999
+Epsilon = 0.05
+Evaluation at timestep 460026 returned a mean returns of -130.07999999999998
+Epsilon = 0.05
+Evaluation at timestep 470067 returned a mean returns of -128.19999999999996
+Epsilon = 0.05
+Evaluation at timestep 480126 returned a mean returns of -105.66000000000007
+Epsilon = 0.05
+Evaluation at timestep 490117 returned a mean returns of -132.85000000000002
+Epsilon = 0.05
+Evaluation at timestep 500129 returned a mean returns of -126.39000000000001
+Epsilon = 0.05
+Evaluation at timestep 510099 returned a mean returns of -132.45999999999995
+Epsilon = 0.05
+Evaluation at timestep 520075 returned a mean returns of -138.96
+Epsilon = 0.05
+Evaluation at timestep 530047 returned a mean returns of -129.42000000000002
+Epsilon = 0.05
+Evaluation at timestep 540125 returned a mean returns of -150.89
+Epsilon = 0.05
+Evaluation at timestep 550117 returned a mean returns of -124.71000000000008
+Epsilon = 0.05
+Evaluation at timestep 560075 returned a mean returns of -131.48000000000005
+Epsilon = 0.05
+Evaluation at timestep 570027 returned a mean returns of -151.73999999999992
+Epsilon = 0.05
+Evaluation at timestep 580036 returned a mean returns of -123.40000000000002
+Epsilon = 0.05
+Evaluation at timestep 590100 returned a mean returns of -141.68000000000006
+Epsilon = 0.05
+Evaluation at timestep 600021 returned a mean returns of -159.91000000000008
+Epsilon = 0.05
+Evaluation at timestep 610078 returned a mean returns of -136.91000000000003
+Epsilon = 0.05
+Evaluation at timestep 620107 returned a mean returns of -139.23
+Epsilon = 0.05
+Evaluation at timestep 630135 returned a mean returns of -131.88
+Epsilon = 0.05
+Evaluation at timestep 640023 returned a mean returns of -132.79999999999995
+Epsilon = 0.05
+Evaluation at timestep 650105 returned a mean returns of -178.54000000000005
+Epsilon = 0.05
+Evaluation at timestep 660076 returned a mean returns of -126.27999999999997
+Epsilon = 0.05
+Evaluation at timestep 670115 returned a mean returns of -122.17
+Epsilon = 0.05
+Evaluation at timestep 680062 returned a mean returns of -134.01999999999998
+Epsilon = 0.05
+Evaluation at timestep 690040 returned a mean returns of -121.48
+Epsilon = 0.05
+Evaluation at timestep 700098 returned a mean returns of -160.61999999999998
+Epsilon = 0.05
+
+Training iteration: 3/10
+Evaluation at timestep 10000 returned a mean returns of -200.0
+Epsilon = 0.7845840978967507
+Evaluation at timestep 20000 returned a mean returns of -200.0
+Epsilon = 0.3751954625412529
+Evaluation at timestep 30000 returned a mean returns of -200.0
+Epsilon = 0.10935892390992964
+Evaluation at timestep 40172 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 50172 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 60127 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 70059 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 80188 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 90162 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 100192 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 110105 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 120035 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 130030 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 140035 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 150022 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 160051 returned a mean returns of -185.19000000000008
+Epsilon = 0.05
+Evaluation at timestep 170118 returned a mean returns of -167.61
+Epsilon = 0.05
+Evaluation at timestep 180134 returned a mean returns of -196.73000000000002
+Epsilon = 0.05
+Evaluation at timestep 190133 returned a mean returns of -191.82999999999993
+Epsilon = 0.05
+Evaluation at timestep 200038 returned a mean returns of -136.28000000000011
+Epsilon = 0.05
+Evaluation at timestep 210104 returned a mean returns of -145.16000000000003
+Epsilon = 0.05
+Evaluation at timestep 220007 returned a mean returns of -124.12000000000005
+Epsilon = 0.05
+Evaluation at timestep 230066 returned a mean returns of -154.58999999999995
+Epsilon = 0.05
+Evaluation at timestep 240142 returned a mean returns of -144.23999999999998
+Epsilon = 0.05
+Evaluation at timestep 250011 returned a mean returns of -120.86999999999999
+Epsilon = 0.05
+Evaluation at timestep 260154 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 270052 returned a mean returns of -149.21
+Epsilon = 0.05
+Evaluation at timestep 280008 returned a mean returns of -133.29999999999998
+Epsilon = 0.05
+Evaluation at timestep 290125 returned a mean returns of -136.08999999999992
+Epsilon = 0.05
+Evaluation at timestep 300024 returned a mean returns of -197.22
+Epsilon = 0.05
+Evaluation at timestep 310055 returned a mean returns of -127.40999999999998
+Epsilon = 0.05
+Evaluation at timestep 320010 returned a mean returns of -128.73000000000013
+Epsilon = 0.05
+Evaluation at timestep 330102 returned a mean returns of -131.02000000000004
+Epsilon = 0.05
+Evaluation at timestep 340055 returned a mean returns of -132.75000000000003
+Epsilon = 0.05
+Evaluation at timestep 350003 returned a mean returns of -115.8
+Epsilon = 0.05
+Evaluation at timestep 360095 returned a mean returns of -112.34999999999995
+Epsilon = 0.05
+Evaluation at timestep 370100 returned a mean returns of -110.72000000000006
+Epsilon = 0.05
+Evaluation at timestep 380059 returned a mean returns of -111.29999999999988
+Epsilon = 0.05
+Evaluation at timestep 390105 returned a mean returns of -110.31999999999996
+Epsilon = 0.05
+Evaluation at timestep 400028 returned a mean returns of -103.62999999999997
+Epsilon = 0.05
+Evaluation at timestep 410034 returned a mean returns of -103.58999999999996
+Epsilon = 0.05
+Evaluation at timestep 420017 returned a mean returns of -105.56999999999992
+Epsilon = 0.05
+Evaluation at timestep 430040 returned a mean returns of -120.91999999999994
+Epsilon = 0.05
+Evaluation at timestep 440010 returned a mean returns of -110.82999999999994
+Epsilon = 0.05
+Evaluation at timestep 450034 returned a mean returns of -103.5699999999999
+Epsilon = 0.05
+Evaluation at timestep 460043 returned a mean returns of -102.80999999999996
+Epsilon = 0.05
+Evaluation at timestep 470032 returned a mean returns of -108.62999999999994
+Epsilon = 0.05
+Evaluation at timestep 480147 returned a mean returns of -100.54
+Epsilon = 0.05
+Evaluation at timestep 490019 returned a mean returns of -108.09
+Epsilon = 0.05
+Evaluation at timestep 500136 returned a mean returns of -104.53000000000003
+Epsilon = 0.05
+Evaluation at timestep 510074 returned a mean returns of -165.73999999999998
+Epsilon = 0.05
+Evaluation at timestep 520010 returned a mean returns of -101.92000000000002
+Epsilon = 0.05
+Evaluation at timestep 530139 returned a mean returns of -115.68999999999994
+Epsilon = 0.05
+Evaluation at timestep 540092 returned a mean returns of -106.97
+Epsilon = 0.05
+Evaluation at timestep 550048 returned a mean returns of -110.46999999999993
+Epsilon = 0.05
+Evaluation at timestep 560015 returned a mean returns of -166.54
+Epsilon = 0.05
+Evaluation at timestep 570030 returned a mean returns of -117.40999999999998
+Epsilon = 0.05
+Evaluation at timestep 580006 returned a mean returns of -106.39999999999999
+Epsilon = 0.05
+Evaluation at timestep 590029 returned a mean returns of -113.35000000000004
+Epsilon = 0.05
+Evaluation at timestep 600061 returned a mean returns of -111.73
+Epsilon = 0.05
+Evaluation at timestep 610069 returned a mean returns of -122.22999999999992
+Epsilon = 0.05
+Evaluation at timestep 620100 returned a mean returns of -117.62000000000012
+Epsilon = 0.05
+Evaluation at timestep 630083 returned a mean returns of -131.51
+Epsilon = 0.05
+Evaluation at timestep 640070 returned a mean returns of -118.53
+Epsilon = 0.05
+Evaluation at timestep 650043 returned a mean returns of -124.74999999999997
+Epsilon = 0.05
+Evaluation at timestep 660042 returned a mean returns of -117.93000000000004
+Epsilon = 0.05
+Evaluation at timestep 670052 returned a mean returns of -112.23
+Epsilon = 0.05
+Evaluation at timestep 680030 returned a mean returns of -106.87000000000005
+Epsilon = 0.05
+Evaluation at timestep 690084 returned a mean returns of -109.62000000000002
+Epsilon = 0.05
+Evaluation at timestep 700112 returned a mean returns of -126.03000000000007
+Epsilon = 0.05
+
+Training iteration: 4/10
+Evaluation at timestep 10000 returned a mean returns of -200.0
+Epsilon = 0.7845840978967507
+Evaluation at timestep 20000 returned a mean returns of -200.0
+Epsilon = 0.3751954625412529
+Evaluation at timestep 30170 returned a mean returns of -200.0
+Epsilon = 0.10620431482876555
+Evaluation at timestep 40171 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 50012 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 60103 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 70038 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 80187 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 90074 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 100109 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 110017 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 120157 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 130056 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 140172 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 150003 returned a mean returns of -153.72000000000003
+Epsilon = 0.05
+Evaluation at timestep 160169 returned a mean returns of -132.10000000000002
+Epsilon = 0.05
+Evaluation at timestep 170137 returned a mean returns of -142.31999999999996
+Epsilon = 0.05
+Evaluation at timestep 180125 returned a mean returns of -136.80999999999997
+Epsilon = 0.05
+Evaluation at timestep 190068 returned a mean returns of -139.2
+Epsilon = 0.05
+Evaluation at timestep 200144 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 210005 returned a mean returns of -136.04000000000002
+Epsilon = 0.05
+Evaluation at timestep 220109 returned a mean returns of -131.14
+Epsilon = 0.05
+Evaluation at timestep 230060 returned a mean returns of -145.60000000000008
+Epsilon = 0.05
+Evaluation at timestep 240151 returned a mean returns of -161.81000000000003
+Epsilon = 0.05
+Evaluation at timestep 250048 returned a mean returns of -141.39000000000001
+Epsilon = 0.05
+Evaluation at timestep 260195 returned a mean returns of -142.27999999999997
+Epsilon = 0.05
+Evaluation at timestep 270054 returned a mean returns of -119.26000000000006
+Epsilon = 0.05
+Evaluation at timestep 280112 returned a mean returns of -152.0699999999999
+Epsilon = 0.05
+Evaluation at timestep 290038 returned a mean returns of -121.73000000000005
+Epsilon = 0.05
+Evaluation at timestep 300073 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 310034 returned a mean returns of -116.06999999999998
+Epsilon = 0.05
+Evaluation at timestep 320111 returned a mean returns of -118.74000000000007
+Epsilon = 0.05
+Evaluation at timestep 330107 returned a mean returns of -197.94
+Epsilon = 0.05
+Evaluation at timestep 340089 returned a mean returns of -167.21000000000004
+Epsilon = 0.05
+Evaluation at timestep 350033 returned a mean returns of -123.56999999999996
+Epsilon = 0.05
+Evaluation at timestep 360108 returned a mean returns of -133.36999999999992
+Epsilon = 0.05
+Evaluation at timestep 370083 returned a mean returns of -109.80000000000003
+Epsilon = 0.05
+Evaluation at timestep 380126 returned a mean returns of -129.63000000000008
+Epsilon = 0.05
+Evaluation at timestep 390025 returned a mean returns of -134.39000000000004
+Epsilon = 0.05
+Evaluation at timestep 400117 returned a mean returns of -129.51999999999992
+Epsilon = 0.05
+Evaluation at timestep 410077 returned a mean returns of -128.45
+Epsilon = 0.05
+Evaluation at timestep 420071 returned a mean returns of -132.61000000000004
+Epsilon = 0.05
+Evaluation at timestep 430089 returned a mean returns of -129.84
+Epsilon = 0.05
+Evaluation at timestep 440020 returned a mean returns of -149.49000000000007
+Epsilon = 0.05
+Evaluation at timestep 450118 returned a mean returns of -119.80999999999999
+Epsilon = 0.05
+Evaluation at timestep 460079 returned a mean returns of -117.07000000000001
+Epsilon = 0.05
+Evaluation at timestep 470052 returned a mean returns of -116.35000000000002
+Epsilon = 0.05
+Evaluation at timestep 480011 returned a mean returns of -139.57999999999996
+Epsilon = 0.05
+Evaluation at timestep 490033 returned a mean returns of -124.24000000000005
+Epsilon = 0.05
+Evaluation at timestep 500054 returned a mean returns of -126.93000000000004
+Epsilon = 0.05
+Evaluation at timestep 510034 returned a mean returns of -109.63999999999994
+Epsilon = 0.05
+Evaluation at timestep 520076 returned a mean returns of -194.56
+Epsilon = 0.05
+Evaluation at timestep 530098 returned a mean returns of -106.44
+Epsilon = 0.05
+Evaluation at timestep 540080 returned a mean returns of -149.72
+Epsilon = 0.05
+Evaluation at timestep 550106 returned a mean returns of -127.73
+Epsilon = 0.05
+Evaluation at timestep 560040 returned a mean returns of -129.32
+Epsilon = 0.05
+Evaluation at timestep 570028 returned a mean returns of -135.52000000000007
+Epsilon = 0.05
+Evaluation at timestep 580117 returned a mean returns of -137.54
+Epsilon = 0.05
+Evaluation at timestep 590105 returned a mean returns of -127.29999999999997
+Epsilon = 0.05
+Evaluation at timestep 600148 returned a mean returns of -129.07999999999996
+Epsilon = 0.05
+Evaluation at timestep 610039 returned a mean returns of -135.53000000000006
+Epsilon = 0.05
+Evaluation at timestep 620047 returned a mean returns of -131.1100000000001
+Epsilon = 0.05
+Evaluation at timestep 630041 returned a mean returns of -132.96000000000006
+Epsilon = 0.05
+Evaluation at timestep 640071 returned a mean returns of -100.59000000000003
+Epsilon = 0.05
+Evaluation at timestep 650118 returned a mean returns of -119.50000000000009
+Epsilon = 0.05
+Evaluation at timestep 660059 returned a mean returns of -111.46000000000001
+Epsilon = 0.05
+Evaluation at timestep 670014 returned a mean returns of -121.25000000000004
+Epsilon = 0.05
+Evaluation at timestep 680013 returned a mean returns of -116.33999999999999
+Epsilon = 0.05
+Evaluation at timestep 690077 returned a mean returns of -114.25000000000007
+Epsilon = 0.05
+Evaluation at timestep 700026 returned a mean returns of -120.61
+Epsilon = 0.05
+
+Training iteration: 5/10
+Evaluation at timestep 10000 returned a mean returns of -200.0
+Epsilon = 0.7845840978967507
+Evaluation at timestep 20000 returned a mean returns of -200.0
+Epsilon = 0.3751954625412529
+Evaluation at timestep 30000 returned a mean returns of -200.0
+Epsilon = 0.10935892390992964
+Evaluation at timestep 40000 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 50156 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 60146 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 70146 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 80092 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 90009 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 100009 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 110009 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 120135 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 130110 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 140174 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 150095 returned a mean returns of -162.46000000000004
+Epsilon = 0.05
+Evaluation at timestep 160040 returned a mean returns of -136.86999999999998
+Epsilon = 0.05
+Evaluation at timestep 170135 returned a mean returns of -120.67
+Epsilon = 0.05
+Evaluation at timestep 180046 returned a mean returns of -120.89999999999996
+Epsilon = 0.05
+Evaluation at timestep 190108 returned a mean returns of -135.38999999999996
+Epsilon = 0.05
+Evaluation at timestep 200011 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 210162 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 220160 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 230020 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 240067 returned a mean returns of -178.20000000000002
+Epsilon = 0.05
+Evaluation at timestep 250158 returned a mean returns of -155.02999999999994
+Epsilon = 0.05
+Evaluation at timestep 260003 returned a mean returns of -133.0
+Epsilon = 0.05
+Evaluation at timestep 270026 returned a mean returns of -134.90000000000006
+Epsilon = 0.05
+Evaluation at timestep 280010 returned a mean returns of -147.22999999999996
+Epsilon = 0.05
+Evaluation at timestep 290014 returned a mean returns of -127.14000000000004
+Epsilon = 0.05
+Evaluation at timestep 300026 returned a mean returns of -122.23000000000002
+Epsilon = 0.05
+Evaluation at timestep 310069 returned a mean returns of -128.77
+Epsilon = 0.05
+Evaluation at timestep 320110 returned a mean returns of -127.98
+Epsilon = 0.05
+Evaluation at timestep 330060 returned a mean returns of -199.29999999999998
+Epsilon = 0.05
+Evaluation at timestep 340070 returned a mean returns of -111.04999999999995
+Epsilon = 0.05
+Evaluation at timestep 350037 returned a mean returns of -107.09000000000003
+Epsilon = 0.05
+Evaluation at timestep 360063 returned a mean returns of -105.63000000000002
+Epsilon = 0.05
+Evaluation at timestep 370061 returned a mean returns of -112.09000000000003
+Epsilon = 0.05
+Evaluation at timestep 380095 returned a mean returns of -107.96999999999998
+Epsilon = 0.05
+Evaluation at timestep 390092 returned a mean returns of -104.32999999999998
+Epsilon = 0.05
+Evaluation at timestep 400064 returned a mean returns of -110.02
+Epsilon = 0.05
+Evaluation at timestep 410035 returned a mean returns of -106.63
+Epsilon = 0.05
+Evaluation at timestep 420001 returned a mean returns of -113.95999999999995
+Epsilon = 0.05
+Evaluation at timestep 430132 returned a mean returns of -115.86
+Epsilon = 0.05
+Evaluation at timestep 440100 returned a mean returns of -102.80999999999996
+Epsilon = 0.05
+Evaluation at timestep 450067 returned a mean returns of -130.70000000000007
+Epsilon = 0.05
+Evaluation at timestep 460076 returned a mean returns of -133.60999999999999
+Epsilon = 0.05
+Evaluation at timestep 470177 returned a mean returns of -133.39999999999995
+Epsilon = 0.05
+Evaluation at timestep 480115 returned a mean returns of -126.71000000000001
+Epsilon = 0.05
+Evaluation at timestep 490053 returned a mean returns of -118.67
+Epsilon = 0.05
+Evaluation at timestep 500072 returned a mean returns of -172.20999999999992
+Epsilon = 0.05
+Evaluation at timestep 510033 returned a mean returns of -129.09000000000003
+Epsilon = 0.05
+Evaluation at timestep 520058 returned a mean returns of -125.92999999999995
+Epsilon = 0.05
+Evaluation at timestep 530081 returned a mean returns of -132.42000000000004
+Epsilon = 0.05
+Evaluation at timestep 540144 returned a mean returns of -134.58999999999997
+Epsilon = 0.05
+Evaluation at timestep 550097 returned a mean returns of -126.00000000000003
+Epsilon = 0.05
+Evaluation at timestep 560032 returned a mean returns of -126.22000000000008
+Epsilon = 0.05
+Evaluation at timestep 570084 returned a mean returns of -132.32
+Epsilon = 0.05
+Evaluation at timestep 580115 returned a mean returns of -129.6
+Epsilon = 0.05
+Evaluation at timestep 590083 returned a mean returns of -167.8
+Epsilon = 0.05
+Evaluation at timestep 600062 returned a mean returns of -150.71999999999997
+Epsilon = 0.05
+Evaluation at timestep 610160 returned a mean returns of -116.39000000000004
+Epsilon = 0.05
+Evaluation at timestep 620002 returned a mean returns of -113.63999999999999
+Epsilon = 0.05
+Evaluation at timestep 630147 returned a mean returns of -110.07999999999998
+Epsilon = 0.05
+Evaluation at timestep 640077 returned a mean returns of -112.46
+Epsilon = 0.05
+Evaluation at timestep 650037 returned a mean returns of -114.12
+Epsilon = 0.05
+Evaluation at timestep 660151 returned a mean returns of -108.41
+Epsilon = 0.05
+Evaluation at timestep 670011 returned a mean returns of -119.61999999999993
+Epsilon = 0.05
+Evaluation at timestep 680077 returned a mean returns of -119.13999999999999
+Epsilon = 0.05
+Evaluation at timestep 690089 returned a mean returns of -106.51
+Epsilon = 0.05
+Evaluation at timestep 700000 returned a mean returns of -134.99999999999997
+Epsilon = 0.05
+
+Training iteration: 6/10
+Evaluation at timestep 10000 returned a mean returns of -200.0
+Epsilon = 0.7845840978967507
+Evaluation at timestep 20000 returned a mean returns of -200.0
+Epsilon = 0.3751954625412529
+Evaluation at timestep 30000 returned a mean returns of -200.0
+Epsilon = 0.10935892390992964
+Evaluation at timestep 40170 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 50045 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 60156 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 70110 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 80178 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 90068 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 100157 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 110050 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 120065 returned a mean returns of -197.32
+Epsilon = 0.05
+Evaluation at timestep 130005 returned a mean returns of -197.73
+Epsilon = 0.05
+Evaluation at timestep 140003 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 150009 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 160187 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 170089 returned a mean returns of -162.45
+Epsilon = 0.05
+Evaluation at timestep 180068 returned a mean returns of -135.86000000000004
+Epsilon = 0.05
+Evaluation at timestep 190010 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 200030 returned a mean returns of -132.36000000000004
+Epsilon = 0.05
+Evaluation at timestep 210099 returned a mean returns of -169.61000000000004
+Epsilon = 0.05
+Evaluation at timestep 220091 returned a mean returns of -112.67
+Epsilon = 0.05
+Evaluation at timestep 230082 returned a mean returns of -131.63000000000005
+Epsilon = 0.05
+Evaluation at timestep 240019 returned a mean returns of -127.92999999999998
+Epsilon = 0.05
+Evaluation at timestep 250078 returned a mean returns of -119.27
+Epsilon = 0.05
+Evaluation at timestep 260015 returned a mean returns of -124.05999999999999
+Epsilon = 0.05
+Evaluation at timestep 270102 returned a mean returns of -198.24
+Epsilon = 0.05
+Evaluation at timestep 280139 returned a mean returns of -114.47000000000004
+Epsilon = 0.05
+Evaluation at timestep 290017 returned a mean returns of -132.22000000000003
+Epsilon = 0.05
+Evaluation at timestep 300044 returned a mean returns of -154.12999999999997
+Epsilon = 0.05
+Evaluation at timestep 310077 returned a mean returns of -114.13999999999999
+Epsilon = 0.05
+Evaluation at timestep 320036 returned a mean returns of -145.28000000000006
+Epsilon = 0.05
+Evaluation at timestep 330060 returned a mean returns of -119.09000000000003
+Epsilon = 0.05
+Evaluation at timestep 340001 returned a mean returns of -168.56
+Epsilon = 0.05
+Evaluation at timestep 350040 returned a mean returns of -139.61999999999998
+Epsilon = 0.05
+Evaluation at timestep 360050 returned a mean returns of -138.25
+Epsilon = 0.05
+Evaluation at timestep 370118 returned a mean returns of -133.31
+Epsilon = 0.05
+Evaluation at timestep 380095 returned a mean returns of -162.42
+Epsilon = 0.05
+Evaluation at timestep 390089 returned a mean returns of -119.73999999999991
+Epsilon = 0.05
+Evaluation at timestep 400006 returned a mean returns of -164.29000000000005
+Epsilon = 0.05
+Evaluation at timestep 410016 returned a mean returns of -130.51000000000002
+Epsilon = 0.05
+Evaluation at timestep 420123 returned a mean returns of -126.18999999999998
+Epsilon = 0.05
+Evaluation at timestep 430100 returned a mean returns of -126.57
+Epsilon = 0.05
+Evaluation at timestep 440054 returned a mean returns of -155.89999999999998
+Epsilon = 0.05
+Evaluation at timestep 450113 returned a mean returns of -134.32
+Epsilon = 0.05
+Evaluation at timestep 460125 returned a mean returns of -134.61999999999995
+Epsilon = 0.05
+Evaluation at timestep 470047 returned a mean returns of -113.02000000000004
+Epsilon = 0.05
+Evaluation at timestep 480154 returned a mean returns of -127.25000000000001
+Epsilon = 0.05
+Evaluation at timestep 490078 returned a mean returns of -176.03999999999996
+Epsilon = 0.05
+Evaluation at timestep 500157 returned a mean returns of -128.88000000000002
+Epsilon = 0.05
+Evaluation at timestep 510068 returned a mean returns of -136.64
+Epsilon = 0.05
+Evaluation at timestep 520121 returned a mean returns of -113.11999999999998
+Epsilon = 0.05
+Evaluation at timestep 530151 returned a mean returns of -181.21
+Epsilon = 0.05
+Evaluation at timestep 540139 returned a mean returns of -123.95
+Epsilon = 0.05
+Evaluation at timestep 550014 returned a mean returns of -123.76
+Epsilon = 0.05
+Evaluation at timestep 560121 returned a mean returns of -133.15999999999997
+Epsilon = 0.05
+Evaluation at timestep 570059 returned a mean returns of -123.28000000000002
+Epsilon = 0.05
+Evaluation at timestep 580111 returned a mean returns of -112.12999999999994
+Epsilon = 0.05
+Evaluation at timestep 590001 returned a mean returns of -140.71000000000012
+Epsilon = 0.05
+Evaluation at timestep 600102 returned a mean returns of -112.48999999999997
+Epsilon = 0.05
+Evaluation at timestep 610052 returned a mean returns of -106.48000000000003
+Epsilon = 0.05
+Evaluation at timestep 620016 returned a mean returns of -111.96000000000004
+Epsilon = 0.05
+Evaluation at timestep 630095 returned a mean returns of -107.3300000000001
+Epsilon = 0.05
+Evaluation at timestep 640010 returned a mean returns of -108.91999999999999
+Epsilon = 0.05
+Evaluation at timestep 650134 returned a mean returns of -128.84999999999994
+Epsilon = 0.05
+Evaluation at timestep 660067 returned a mean returns of -105.99000000000002
+Epsilon = 0.05
+Evaluation at timestep 670101 returned a mean returns of -108.40000000000002
+Epsilon = 0.05
+Evaluation at timestep 680022 returned a mean returns of -105.29000000000002
+Epsilon = 0.05
+Evaluation at timestep 690073 returned a mean returns of -103.51999999999991
+Epsilon = 0.05
+Evaluation at timestep 700064 returned a mean returns of -103.45000000000002
+Epsilon = 0.05
+
+Training iteration: 7/10
+Evaluation at timestep 10000 returned a mean returns of -200.0
+Epsilon = 0.7845840978967507
+Evaluation at timestep 20000 returned a mean returns of -200.0
+Epsilon = 0.3751954625412529
+Evaluation at timestep 30031 returned a mean returns of -200.0
+Epsilon = 0.10654781088473429
+Evaluation at timestep 40146 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 50034 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 60156 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 70152 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 80101 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 90027 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 100103 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 110107 returned a mean returns of -190.97
+Epsilon = 0.05
+Evaluation at timestep 120062 returned a mean returns of -171.32000000000005
+Epsilon = 0.05
+Evaluation at timestep 130165 returned a mean returns of -180.60000000000002
+Epsilon = 0.05
+Evaluation at timestep 140006 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 150039 returned a mean returns of -133.85000000000002
+Epsilon = 0.05
+Evaluation at timestep 160104 returned a mean returns of -139.26
+Epsilon = 0.05
+Evaluation at timestep 170119 returned a mean returns of -130.85
+Epsilon = 0.05
+Evaluation at timestep 180015 returned a mean returns of -144.63999999999996
+Epsilon = 0.05
+Evaluation at timestep 190008 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 200119 returned a mean returns of -156.58999999999995
+Epsilon = 0.05
+Evaluation at timestep 210084 returned a mean returns of -162.44
+Epsilon = 0.05
+Evaluation at timestep 220085 returned a mean returns of -163.08000000000004
+Epsilon = 0.05
+Evaluation at timestep 230004 returned a mean returns of -142.36000000000004
+Epsilon = 0.05
+Evaluation at timestep 240012 returned a mean returns of -142.1100000000001
+Epsilon = 0.05
+Evaluation at timestep 250053 returned a mean returns of -167.45999999999992
+Epsilon = 0.05
+Evaluation at timestep 260025 returned a mean returns of -121.66000000000004
+Epsilon = 0.05
+Evaluation at timestep 270141 returned a mean returns of -103.85000000000002
+Epsilon = 0.05
+Evaluation at timestep 280034 returned a mean returns of -103.56999999999995
+Epsilon = 0.05
+Evaluation at timestep 290052 returned a mean returns of -106.66000000000004
+Epsilon = 0.05
+Evaluation at timestep 300095 returned a mean returns of -141.05000000000004
+Epsilon = 0.05
+Evaluation at timestep 310106 returned a mean returns of -114.11
+Epsilon = 0.05
+Evaluation at timestep 320114 returned a mean returns of -107.66000000000008
+Epsilon = 0.05
+Evaluation at timestep 330079 returned a mean returns of -105.85
+Epsilon = 0.05
+Evaluation at timestep 340058 returned a mean returns of -121.47000000000006
+Epsilon = 0.05
+Evaluation at timestep 350097 returned a mean returns of -110.29999999999998
+Epsilon = 0.05
+Evaluation at timestep 360008 returned a mean returns of -114.66000000000003
+Epsilon = 0.05
+Evaluation at timestep 370031 returned a mean returns of -111.9300000000001
+Epsilon = 0.05
+Evaluation at timestep 380070 returned a mean returns of -112.87999999999991
+Epsilon = 0.05
+Evaluation at timestep 390137 returned a mean returns of -109.1600000000001
+Epsilon = 0.05
+Evaluation at timestep 400067 returned a mean returns of -112.71999999999997
+Epsilon = 0.05
+Evaluation at timestep 410122 returned a mean returns of -137.5
+Epsilon = 0.05
+Evaluation at timestep 420015 returned a mean returns of -147.97000000000006
+Epsilon = 0.05
+Evaluation at timestep 430150 returned a mean returns of -133.10999999999996
+Epsilon = 0.05
+Evaluation at timestep 440043 returned a mean returns of -131.8600000000001
+Epsilon = 0.05
+Evaluation at timestep 450050 returned a mean returns of -124.39000000000004
+Epsilon = 0.05
+Evaluation at timestep 460014 returned a mean returns of -104.33
+Epsilon = 0.05
+Evaluation at timestep 470082 returned a mean returns of -102.1
+Epsilon = 0.05
+Evaluation at timestep 480069 returned a mean returns of -101.39999999999999
+Epsilon = 0.05
+Evaluation at timestep 490064 returned a mean returns of -104.46999999999996
+Epsilon = 0.05
+Evaluation at timestep 500079 returned a mean returns of -103.49000000000001
+Epsilon = 0.05
+Evaluation at timestep 510019 returned a mean returns of -107.66999999999993
+Epsilon = 0.05
+Evaluation at timestep 520166 returned a mean returns of -107.80999999999993
+Epsilon = 0.05
+Evaluation at timestep 530105 returned a mean returns of -106.27999999999997
+Epsilon = 0.05
+Evaluation at timestep 540089 returned a mean returns of -107.87999999999984
+Epsilon = 0.05
+Evaluation at timestep 550039 returned a mean returns of -108.21999999999987
+Epsilon = 0.05
+Evaluation at timestep 560099 returned a mean returns of -106.97
+Epsilon = 0.05
+Evaluation at timestep 570086 returned a mean returns of -103.68999999999993
+Epsilon = 0.05
+Evaluation at timestep 580096 returned a mean returns of -106.40999999999998
+Epsilon = 0.05
+Evaluation at timestep 590022 returned a mean returns of -103.73000000000002
+Epsilon = 0.05
+Evaluation at timestep 600042 returned a mean returns of -108.22000000000003
+Epsilon = 0.05
+Evaluation at timestep 610005 returned a mean returns of -107.04999999999995
+Epsilon = 0.05
+Evaluation at timestep 620116 returned a mean returns of -107.46000000000014
+Epsilon = 0.05
+Evaluation at timestep 630030 returned a mean returns of -102.76999999999991
+Epsilon = 0.05
+Evaluation at timestep 640055 returned a mean returns of -105.07999999999998
+Epsilon = 0.05
+Evaluation at timestep 650107 returned a mean returns of -101.78000000000009
+Epsilon = 0.05
+Evaluation at timestep 660047 returned a mean returns of -99.66000000000003
+Epsilon = 0.05
+Evaluation at timestep 670039 returned a mean returns of -102.99000000000012
+Epsilon = 0.05
+Evaluation at timestep 680089 returned a mean returns of -137.22999999999993
+Epsilon = 0.05
+Evaluation at timestep 690066 returned a mean returns of -135.67
+Epsilon = 0.05
+Evaluation at timestep 700129 returned a mean returns of -192.79999999999995
+Epsilon = 0.05
+
+Training iteration: 8/10
+Evaluation at timestep 10000 returned a mean returns of -200.0
+Epsilon = 0.7845840978967507
+Evaluation at timestep 20000 returned a mean returns of -200.0
+Epsilon = 0.3751954625412529
+Evaluation at timestep 30036 returned a mean returns of -200.0
+Epsilon = 0.10655456340175636
+Evaluation at timestep 40136 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 50193 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 60146 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 70129 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 80002 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 90137 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 100084 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 110118 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 120084 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 130105 returned a mean returns of -179.09
+Epsilon = 0.05
+Evaluation at timestep 140052 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 150093 returned a mean returns of -193.38999999999996
+Epsilon = 0.05
+Evaluation at timestep 160114 returned a mean returns of -145.95999999999992
+Epsilon = 0.05
+Evaluation at timestep 170167 returned a mean returns of -150.30999999999997
+Epsilon = 0.05
+Evaluation at timestep 180125 returned a mean returns of -135.88999999999996
+Epsilon = 0.05
+Evaluation at timestep 190041 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 200010 returned a mean returns of -151.00000000000003
+Epsilon = 0.05
+Evaluation at timestep 210012 returned a mean returns of -148.98999999999995
+Epsilon = 0.05
+Evaluation at timestep 220030 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 230092 returned a mean returns of -170.78000000000006
+Epsilon = 0.05
+Evaluation at timestep 240020 returned a mean returns of -133.01999999999992
+Epsilon = 0.05
+Evaluation at timestep 250147 returned a mean returns of -134.80000000000007
+Epsilon = 0.05
+Evaluation at timestep 260128 returned a mean returns of -128.75000000000003
+Epsilon = 0.05
+Evaluation at timestep 270012 returned a mean returns of -132.94000000000003
+Epsilon = 0.05
+Evaluation at timestep 280008 returned a mean returns of -131.54999999999998
+Epsilon = 0.05
+Evaluation at timestep 290058 returned a mean returns of -136.04
+Epsilon = 0.05
+Evaluation at timestep 300126 returned a mean returns of -169.29
+Epsilon = 0.05
+Evaluation at timestep 310030 returned a mean returns of -104.94999999999997
+Epsilon = 0.05
+Evaluation at timestep 320108 returned a mean returns of -128.72000000000008
+Epsilon = 0.05
+Evaluation at timestep 330102 returned a mean returns of -119.57000000000004
+Epsilon = 0.05
+Evaluation at timestep 340016 returned a mean returns of -109.50999999999998
+Epsilon = 0.05
+Evaluation at timestep 350075 returned a mean returns of -125.22000000000003
+Epsilon = 0.05
+Evaluation at timestep 360007 returned a mean returns of -188.69
+Epsilon = 0.05
+Evaluation at timestep 370019 returned a mean returns of -194.03000000000003
+Epsilon = 0.05
+Evaluation at timestep 380149 returned a mean returns of -155.28999999999996
+Epsilon = 0.05
+Evaluation at timestep 390009 returned a mean returns of -117.28000000000004
+Epsilon = 0.05
+Evaluation at timestep 400134 returned a mean returns of -131.95000000000002
+Epsilon = 0.05
+Evaluation at timestep 410046 returned a mean returns of -123.34999999999994
+Epsilon = 0.05
+Evaluation at timestep 420007 returned a mean returns of -125.15999999999997
+Epsilon = 0.05
+Evaluation at timestep 430042 returned a mean returns of -108.77000000000004
+Epsilon = 0.05
+Evaluation at timestep 440087 returned a mean returns of -159.89
+Epsilon = 0.05
+Evaluation at timestep 450112 returned a mean returns of -121.68999999999998
+Epsilon = 0.05
+Evaluation at timestep 460100 returned a mean returns of -121.66999999999994
+Epsilon = 0.05
+Evaluation at timestep 470152 returned a mean returns of -115.11
+Epsilon = 0.05
+Evaluation at timestep 480070 returned a mean returns of -121.58999999999996
+Epsilon = 0.05
+Evaluation at timestep 490067 returned a mean returns of -122.51000000000008
+Epsilon = 0.05
+Evaluation at timestep 500098 returned a mean returns of -137.34999999999997
+Epsilon = 0.05
+Evaluation at timestep 510009 returned a mean returns of -136.12
+Epsilon = 0.05
+Evaluation at timestep 520131 returned a mean returns of -143.3700000000001
+Epsilon = 0.05
+Evaluation at timestep 530044 returned a mean returns of -142.89
+Epsilon = 0.05
+Evaluation at timestep 540064 returned a mean returns of -139.33999999999995
+Epsilon = 0.05
+Evaluation at timestep 550138 returned a mean returns of -130.43000000000004
+Epsilon = 0.05
+Evaluation at timestep 560016 returned a mean returns of -129.17000000000004
+Epsilon = 0.05
+Evaluation at timestep 570085 returned a mean returns of -129.93000000000004
+Epsilon = 0.05
+Evaluation at timestep 580070 returned a mean returns of -116.83
+Epsilon = 0.05
+Evaluation at timestep 590102 returned a mean returns of -120.95000000000003
+Epsilon = 0.05
+Evaluation at timestep 600012 returned a mean returns of -122.94999999999997
+Epsilon = 0.05
+Evaluation at timestep 610182 returned a mean returns of -125.80999999999997
+Epsilon = 0.05
+Evaluation at timestep 620061 returned a mean returns of -159.49000000000004
+Epsilon = 0.05
+Evaluation at timestep 630124 returned a mean returns of -176.37999999999997
+Epsilon = 0.05
+Evaluation at timestep 640144 returned a mean returns of -115.56999999999995
+Epsilon = 0.05
+Evaluation at timestep 650165 returned a mean returns of -101.95000000000002
+Epsilon = 0.05
+Evaluation at timestep 660092 returned a mean returns of -106.90999999999997
+Epsilon = 0.05
+Evaluation at timestep 670034 returned a mean returns of -116.52000000000002
+Epsilon = 0.05
+Evaluation at timestep 680034 returned a mean returns of -105.57
+Epsilon = 0.05
+Evaluation at timestep 690061 returned a mean returns of -106.29000000000002
+Epsilon = 0.05
+Evaluation at timestep 700009 returned a mean returns of -109.39999999999993
+Epsilon = 0.05
+
+Training iteration: 9/10
+Evaluation at timestep 10000 returned a mean returns of -200.0
+Epsilon = 0.7845840978967507
+Evaluation at timestep 20000 returned a mean returns of -200.0
+Epsilon = 0.3751954625412529
+Evaluation at timestep 30136 returned a mean returns of -200.0
+Epsilon = 0.10619632261974948
+Evaluation at timestep 40026 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 50070 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 60090 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 70154 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 80139 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 90120 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 100106 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 110043 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 120011 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 130092 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 140047 returned a mean returns of -141.20999999999995
+Epsilon = 0.05
+Evaluation at timestep 150083 returned a mean returns of -136.74999999999997
+Epsilon = 0.05
+Evaluation at timestep 160029 returned a mean returns of -135.31000000000003
+Epsilon = 0.05
+Evaluation at timestep 170192 returned a mean returns of -174.23000000000002
+Epsilon = 0.05
+Evaluation at timestep 180021 returned a mean returns of -179.47000000000006
+Epsilon = 0.05
+Evaluation at timestep 190120 returned a mean returns of -134.63000000000002
+Epsilon = 0.05
+Evaluation at timestep 200051 returned a mean returns of -164.83000000000007
+Epsilon = 0.05
+Evaluation at timestep 210133 returned a mean returns of -131.62
+Epsilon = 0.05
+Evaluation at timestep 220165 returned a mean returns of -134.97
+Epsilon = 0.05
+Evaluation at timestep 230034 returned a mean returns of -142.94999999999993
+Epsilon = 0.05
+Evaluation at timestep 240121 returned a mean returns of -128.67000000000002
+Epsilon = 0.05
+Evaluation at timestep 250163 returned a mean returns of -140.06999999999996
+Epsilon = 0.05
+Evaluation at timestep 260068 returned a mean returns of -134.59999999999997
+Epsilon = 0.05
+Evaluation at timestep 270027 returned a mean returns of -120.43999999999998
+Epsilon = 0.05
+Evaluation at timestep 280138 returned a mean returns of -130.19999999999996
+Epsilon = 0.05
+Evaluation at timestep 290103 returned a mean returns of -112.14999999999999
+Epsilon = 0.05
+Evaluation at timestep 300020 returned a mean returns of -132.69
+Epsilon = 0.05
+Evaluation at timestep 310119 returned a mean returns of -159.82000000000002
+Epsilon = 0.05
+Evaluation at timestep 320114 returned a mean returns of -120.16000000000001
+Epsilon = 0.05
+Evaluation at timestep 330096 returned a mean returns of -117.41
+Epsilon = 0.05
+Evaluation at timestep 340093 returned a mean returns of -116.63000000000004
+Epsilon = 0.05
+Evaluation at timestep 350055 returned a mean returns of -109.00000000000003
+Epsilon = 0.05
+Evaluation at timestep 360033 returned a mean returns of -113.50999999999992
+Epsilon = 0.05
+Evaluation at timestep 370068 returned a mean returns of -194.87999999999997
+Epsilon = 0.05
+Evaluation at timestep 380012 returned a mean returns of -108.53000000000002
+Epsilon = 0.05
+Evaluation at timestep 390060 returned a mean returns of -129.17999999999998
+Epsilon = 0.05
+Evaluation at timestep 400064 returned a mean returns of -129.74999999999997
+Epsilon = 0.05
+Evaluation at timestep 410060 returned a mean returns of -123.98000000000002
+Epsilon = 0.05
+Evaluation at timestep 420083 returned a mean returns of -120.54000000000005
+Epsilon = 0.05
+Evaluation at timestep 430036 returned a mean returns of -119.52000000000007
+Epsilon = 0.05
+Evaluation at timestep 440090 returned a mean returns of -102.00000000000004
+Epsilon = 0.05
+Evaluation at timestep 450081 returned a mean returns of -128.59999999999997
+Epsilon = 0.05
+Evaluation at timestep 460107 returned a mean returns of -119.34000000000006
+Epsilon = 0.05
+Evaluation at timestep 470013 returned a mean returns of -105.1
+Epsilon = 0.05
+Evaluation at timestep 480005 returned a mean returns of -116.63000000000004
+Epsilon = 0.05
+Evaluation at timestep 490061 returned a mean returns of -106.79
+Epsilon = 0.05
+Evaluation at timestep 500037 returned a mean returns of -111.97000000000007
+Epsilon = 0.05
+Evaluation at timestep 510109 returned a mean returns of -124.48000000000003
+Epsilon = 0.05
+Evaluation at timestep 520000 returned a mean returns of -116.3800000000001
+Epsilon = 0.05
+Evaluation at timestep 530011 returned a mean returns of -173.71
+Epsilon = 0.05
+Evaluation at timestep 540039 returned a mean returns of -109.05000000000001
+Epsilon = 0.05
+Evaluation at timestep 550046 returned a mean returns of -153.31
+Epsilon = 0.05
+Evaluation at timestep 560083 returned a mean returns of -129.25
+Epsilon = 0.05
+Evaluation at timestep 570021 returned a mean returns of -129.05000000000004
+Epsilon = 0.05
+Evaluation at timestep 580017 returned a mean returns of -119.84000000000003
+Epsilon = 0.05
+Evaluation at timestep 590103 returned a mean returns of -121.32000000000001
+Epsilon = 0.05
+Evaluation at timestep 600028 returned a mean returns of -119.67000000000004
+Epsilon = 0.05
+Evaluation at timestep 610101 returned a mean returns of -125.49000000000001
+Epsilon = 0.05
+Evaluation at timestep 620104 returned a mean returns of -122.95999999999998
+Epsilon = 0.05
+Evaluation at timestep 630124 returned a mean returns of -196.37
+Epsilon = 0.05
+Evaluation at timestep 640005 returned a mean returns of -114.2799999999999
+Epsilon = 0.05
+Evaluation at timestep 650043 returned a mean returns of -112.57999999999997
+Epsilon = 0.05
+Evaluation at timestep 660070 returned a mean returns of -108.83999999999999
+Epsilon = 0.05
+Evaluation at timestep 670019 returned a mean returns of -109.13999999999994
+Epsilon = 0.05
+Evaluation at timestep 680010 returned a mean returns of -125.18000000000004
+Epsilon = 0.05
+Evaluation at timestep 690063 returned a mean returns of -144.18
+Epsilon = 0.05
+Evaluation at timestep 700028 returned a mean returns of -117.80000000000007
+Epsilon = 0.05
+
+Training iteration: 10/10
+Evaluation at timestep 10000 returned a mean returns of -200.0
+Epsilon = 0.7845840978967507
+Evaluation at timestep 20000 returned a mean returns of -200.0
+Epsilon = 0.3751954625412529
+Evaluation at timestep 30137 returned a mean returns of -200.0
+Epsilon = 0.10639272639450799
+Evaluation at timestep 40116 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 50178 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 60119 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 70085 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 80167 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 90111 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 100042 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 110069 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 120151 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 130040 returned a mean returns of -197.99
+Epsilon = 0.05
+Evaluation at timestep 140011 returned a mean returns of -183.53999999999994
+Epsilon = 0.05
+Evaluation at timestep 150127 returned a mean returns of -135.69999999999996
+Epsilon = 0.05
+Evaluation at timestep 160039 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 170161 returned a mean returns of -199.69
+Epsilon = 0.05
+Evaluation at timestep 180093 returned a mean returns of -141.46000000000004
+Epsilon = 0.05
+Evaluation at timestep 190080 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 200056 returned a mean returns of -135.57999999999996
+Epsilon = 0.05
+Evaluation at timestep 210052 returned a mean returns of -129.90999999999997
+Epsilon = 0.05
+Evaluation at timestep 220155 returned a mean returns of -150.95
+Epsilon = 0.05
+Evaluation at timestep 230054 returned a mean returns of -131.22
+Epsilon = 0.05
+Evaluation at timestep 240131 returned a mean returns of -129.35999999999999
+Epsilon = 0.05
+Evaluation at timestep 250081 returned a mean returns of -128.39999999999998
+Epsilon = 0.05
+Evaluation at timestep 260144 returned a mean returns of -188.47999999999996
+Epsilon = 0.05
+Evaluation at timestep 270021 returned a mean returns of -149.35999999999999
+Epsilon = 0.05
+Evaluation at timestep 280028 returned a mean returns of -99.52000000000005
+Epsilon = 0.05
+Evaluation at timestep 290094 returned a mean returns of -101.70999999999994
+Epsilon = 0.05
+Evaluation at timestep 300002 returned a mean returns of -148.13
+Epsilon = 0.05
+Evaluation at timestep 310149 returned a mean returns of -136.01999999999992
+Epsilon = 0.05
+Evaluation at timestep 320074 returned a mean returns of -120.01000000000003
+Epsilon = 0.05
+Evaluation at timestep 330078 returned a mean returns of -131.81000000000003
+Epsilon = 0.05
+Evaluation at timestep 340060 returned a mean returns of -124.84
+Epsilon = 0.05
+Evaluation at timestep 350063 returned a mean returns of -143.2800000000001
+Epsilon = 0.05
+Evaluation at timestep 360028 returned a mean returns of -133.31
+Epsilon = 0.05
+Evaluation at timestep 370110 returned a mean returns of -134.48999999999998
+Epsilon = 0.05
+Evaluation at timestep 380030 returned a mean returns of -147.16
+Epsilon = 0.05
+Evaluation at timestep 390030 returned a mean returns of -138.24000000000004
+Epsilon = 0.05
+Evaluation at timestep 400046 returned a mean returns of -134.37
+Epsilon = 0.05
+Evaluation at timestep 410101 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 420009 returned a mean returns of -129.56
+Epsilon = 0.05
+Evaluation at timestep 430020 returned a mean returns of -142.89000000000007
+Epsilon = 0.05
+Evaluation at timestep 440087 returned a mean returns of -133.66
+Epsilon = 0.05
+Evaluation at timestep 450169 returned a mean returns of -127.08000000000003
+Epsilon = 0.05
+Evaluation at timestep 460081 returned a mean returns of -127.78999999999998
+Epsilon = 0.05
+Evaluation at timestep 470053 returned a mean returns of -140.88000000000002
+Epsilon = 0.05
+Evaluation at timestep 480082 returned a mean returns of -138.84999999999994
+Epsilon = 0.05
+Evaluation at timestep 490131 returned a mean returns of -130.60000000000005
+Epsilon = 0.05
+Evaluation at timestep 500123 returned a mean returns of -129.45999999999995
+Epsilon = 0.05
+Evaluation at timestep 510024 returned a mean returns of -140.35000000000005
+Epsilon = 0.05
+Evaluation at timestep 520128 returned a mean returns of -136.00000000000006
+Epsilon = 0.05
+Evaluation at timestep 530042 returned a mean returns of -142.70999999999992
+Epsilon = 0.05
+Evaluation at timestep 540055 returned a mean returns of -128.83999999999995
+Epsilon = 0.05
+Evaluation at timestep 550029 returned a mean returns of -200.0
+Epsilon = 0.05
+Evaluation at timestep 560085 returned a mean returns of -128.50000000000009
+Epsilon = 0.05
+Evaluation at timestep 570135 returned a mean returns of -147.18000000000004
+Epsilon = 0.05
+Evaluation at timestep 580123 returned a mean returns of -147.75999999999996
+Epsilon = 0.05
+Evaluation at timestep 590010 returned a mean returns of -126.19999999999999
+Epsilon = 0.05
+Evaluation at timestep 600020 returned a mean returns of -149.60999999999999
+Epsilon = 0.05
+Evaluation at timestep 610023 returned a mean returns of -153.76
+Epsilon = 0.05
+Evaluation at timestep 620040 returned a mean returns of -149.44
+Epsilon = 0.05
+Evaluation at timestep 630004 returned a mean returns of -166.07000000000008
+Epsilon = 0.05
+Evaluation at timestep 640020 returned a mean returns of -140.46999999999997
+Epsilon = 0.05
+Evaluation at timestep 650001 returned a mean returns of -125.04999999999995
+Epsilon = 0.05
+Evaluation at timestep 660027 returned a mean returns of -141.14
+Epsilon = 0.05
+Evaluation at timestep 670029 returned a mean returns of -175.23000000000002
+Epsilon = 0.05
+Evaluation at timestep 680059 returned a mean returns of -135.1999999999999
+Epsilon = 0.05
+Evaluation at timestep 690138 returned a mean returns of -131.97
+Epsilon = 0.05
+Evaluation at timestep 700040 returned a mean returns of -132.15000000000003
+Epsilon = 0.05
+Finished run with hyperparameters epsilon_start:1.0_epsilon_decay:0.5. Mean final score: -129.875 +- 8.907124645161552
+Final epsilon: 0.05
+
+Starting new run...
+
+Training iteration: 1/10
+Evaluation at timestep 10000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 20000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 30000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 40000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 50000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 60000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 70000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 80000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 90000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 100000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 110000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 120000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 130000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 140000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 150000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 160000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 170000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 180000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 190000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 200000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 210000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 220000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 230000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 240000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 250000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 260000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 270000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 280000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 290000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 300000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 310000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 320000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 330000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 340000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 350000 returned a mean returns of -165.37999999999994
+Epsilon = 1.0
+Evaluation at timestep 360000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 370000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 380000 returned a mean returns of -152.41000000000003
+Epsilon = 1.0
+Evaluation at timestep 390000 returned a mean returns of -146.8100000000001
+Epsilon = 1.0
+Evaluation at timestep 400000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 410000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 420000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 430000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 440000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 450000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 460000 returned a mean returns of -197.65000000000006
+Epsilon = 1.0
+Evaluation at timestep 470000 returned a mean returns of -190.98000000000005
+Epsilon = 1.0
+Evaluation at timestep 480000 returned a mean returns of -168.51000000000013
+Epsilon = 1.0
+Evaluation at timestep 490000 returned a mean returns of -180.39
+Epsilon = 1.0
+Evaluation at timestep 500000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 510000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 520000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 530000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 540000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 550000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 560000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 570000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 580000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 590000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 600000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 610000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 620000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 630000 returned a mean returns of -198.50000000000003
+Epsilon = 1.0
+Evaluation at timestep 640000 returned a mean returns of -179.88000000000002
+Epsilon = 1.0
+Evaluation at timestep 650000 returned a mean returns of -186.42999999999995
+Epsilon = 1.0
+Evaluation at timestep 660000 returned a mean returns of -183.94999999999996
+Epsilon = 1.0
+Evaluation at timestep 670000 returned a mean returns of -183.06
+Epsilon = 1.0
+Evaluation at timestep 680000 returned a mean returns of -182.09999999999997
+Epsilon = 1.0
+Evaluation at timestep 690000 returned a mean returns of -189.83000000000007
+Epsilon = 1.0
+Evaluation at timestep 700000 returned a mean returns of -188.90999999999997
+Epsilon = 1.0
+
+Training iteration: 2/10
+Evaluation at timestep 10000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 20000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 30000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 40000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 50000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 60000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 70000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 80000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 90000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 100000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 110000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 120000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 130000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 140000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 150000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 160000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 170000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 180000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 190000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 200000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 210000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 220000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 230000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 240000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 250000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 260000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 270000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 280000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 290000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 300000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 310000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 320000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 330000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 340000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 350000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 360000 returned a mean returns of -177.81999999999996
+Epsilon = 1.0
+Evaluation at timestep 370000 returned a mean returns of -176.54000000000002
+Epsilon = 1.0
+Evaluation at timestep 380000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 390000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 400000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 410000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 420000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 430000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 440000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 450000 returned a mean returns of -197.53999999999996
+Epsilon = 1.0
+Evaluation at timestep 460000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 470000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 480000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 490000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 500000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 510000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 520000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 530000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 540000 returned a mean returns of -188.02999999999997
+Epsilon = 1.0
+Evaluation at timestep 550000 returned a mean returns of -121.19000000000007
+Epsilon = 1.0
+Evaluation at timestep 560000 returned a mean returns of -133.98000000000005
+Epsilon = 1.0
+Evaluation at timestep 570000 returned a mean returns of -166.23
+Epsilon = 1.0
+Evaluation at timestep 580000 returned a mean returns of -186.9399999999999
+Epsilon = 1.0
+Evaluation at timestep 590000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 600000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 610000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 620000 returned a mean returns of -188.73000000000005
+Epsilon = 1.0
+Evaluation at timestep 630000 returned a mean returns of -160.92
+Epsilon = 1.0
+Evaluation at timestep 640000 returned a mean returns of -163.79
+Epsilon = 1.0
+Evaluation at timestep 650000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 660000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 670000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 680000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 690000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 700000 returned a mean returns of -200.0
+Epsilon = 1.0
+
+Training iteration: 3/10
+Evaluation at timestep 10000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 20000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 30000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 40000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 50000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 60000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 70000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 80000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 90000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 100000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 110000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 120000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 130000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 140000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 150000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 160000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 170000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 180000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 190000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 200000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 210000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 220000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 230000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 240000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 250000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 260000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 270000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 280000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 290000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 300000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 310000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 320000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 330000 returned a mean returns of -196.78999999999996
+Epsilon = 1.0
+Evaluation at timestep 340000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 350000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 360000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 370000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 380000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 390000 returned a mean returns of -185.18
+Epsilon = 1.0
+Evaluation at timestep 400000 returned a mean returns of -159.62
+Epsilon = 1.0
+Evaluation at timestep 410000 returned a mean returns of -138.78000000000003
+Epsilon = 1.0
+Evaluation at timestep 420000 returned a mean returns of -183.06
+Epsilon = 1.0
+Evaluation at timestep 430000 returned a mean returns of -187.70999999999998
+Epsilon = 1.0
+Evaluation at timestep 440000 returned a mean returns of -187.34999999999997
+Epsilon = 1.0
+Evaluation at timestep 450000 returned a mean returns of -183.66999999999996
+Epsilon = 1.0
+Evaluation at timestep 460000 returned a mean returns of -163.76
+Epsilon = 1.0
+Evaluation at timestep 470000 returned a mean returns of -149.95999999999998
+Epsilon = 1.0
+Evaluation at timestep 480000 returned a mean returns of -153.00999999999993
+Epsilon = 1.0
+Evaluation at timestep 490000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 500000 returned a mean returns of -198.79
+Epsilon = 1.0
+Evaluation at timestep 510000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 520000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 530000 returned a mean returns of -192.08
+Epsilon = 1.0
+Evaluation at timestep 540000 returned a mean returns of -165.43999999999997
+Epsilon = 1.0
+Evaluation at timestep 550000 returned a mean returns of -143.90999999999997
+Epsilon = 1.0
+Evaluation at timestep 560000 returned a mean returns of -121.33999999999997
+Epsilon = 1.0
+Evaluation at timestep 570000 returned a mean returns of -130.78
+Epsilon = 1.0
+Evaluation at timestep 580000 returned a mean returns of -143.32999999999996
+Epsilon = 1.0
+Evaluation at timestep 590000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 600000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 610000 returned a mean returns of -173.96000000000004
+Epsilon = 1.0
+Evaluation at timestep 620000 returned a mean returns of -153.56
+Epsilon = 1.0
+Evaluation at timestep 630000 returned a mean returns of -124.50000000000001
+Epsilon = 1.0
+Evaluation at timestep 640000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 650000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 660000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 670000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 680000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 690000 returned a mean returns of -195.90999999999994
+Epsilon = 1.0
+Evaluation at timestep 700000 returned a mean returns of -180.19999999999987
+Epsilon = 1.0
+
+Training iteration: 4/10
+Evaluation at timestep 10000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 20000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 30000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 40000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 50000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 60000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 70000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 80000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 90000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 100000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 110000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 120000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 130000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 140000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 150000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 160000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 170000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 180000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 190000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 200000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 210000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 220000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 230000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 240000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 250000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 260000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 270000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 280000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 290000 returned a mean returns of -199.60999999999999
+Epsilon = 1.0
+Evaluation at timestep 300000 returned a mean returns of -191.31000000000003
+Epsilon = 1.0
+Evaluation at timestep 310000 returned a mean returns of -181.56999999999996
+Epsilon = 1.0
+Evaluation at timestep 320000 returned a mean returns of -162.30000000000013
+Epsilon = 1.0
+Evaluation at timestep 330000 returned a mean returns of -158.09000000000012
+Epsilon = 1.0
+Evaluation at timestep 340000 returned a mean returns of -148.17999999999998
+Epsilon = 1.0
+Evaluation at timestep 350000 returned a mean returns of -153.37999999999997
+Epsilon = 1.0
+Evaluation at timestep 360000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 370000 returned a mean returns of -191.57000000000008
+Epsilon = 1.0
+Evaluation at timestep 380000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 390000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 400000 returned a mean returns of -198.24
+Epsilon = 1.0
+Evaluation at timestep 410000 returned a mean returns of -170.36000000000004
+Epsilon = 1.0
+Evaluation at timestep 420000 returned a mean returns of -162.12999999999997
+Epsilon = 1.0
+Evaluation at timestep 430000 returned a mean returns of -166.49
+Epsilon = 1.0
+Evaluation at timestep 440000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 450000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 460000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 470000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 480000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 490000 returned a mean returns of -187.98
+Epsilon = 1.0
+Evaluation at timestep 500000 returned a mean returns of -166.44999999999996
+Epsilon = 1.0
+Evaluation at timestep 510000 returned a mean returns of -156.32
+Epsilon = 1.0
+Evaluation at timestep 520000 returned a mean returns of -147.97999999999996
+Epsilon = 1.0
+Evaluation at timestep 530000 returned a mean returns of -143.15000000000003
+Epsilon = 1.0
+Evaluation at timestep 540000 returned a mean returns of -197.47999999999996
+Epsilon = 1.0
+Evaluation at timestep 550000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 560000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 570000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 580000 returned a mean returns of -189.62000000000006
+Epsilon = 1.0
+Evaluation at timestep 590000 returned a mean returns of -142.47000000000003
+Epsilon = 1.0
+Evaluation at timestep 600000 returned a mean returns of -166.93
+Epsilon = 1.0
+Evaluation at timestep 610000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 620000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 630000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 640000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 650000 returned a mean returns of -198.18000000000004
+Epsilon = 1.0
+Evaluation at timestep 660000 returned a mean returns of -196.98000000000002
+Epsilon = 1.0
+Evaluation at timestep 670000 returned a mean returns of -156.06
+Epsilon = 1.0
+Evaluation at timestep 680000 returned a mean returns of -185.77999999999994
+Epsilon = 1.0
+Evaluation at timestep 690000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 700000 returned a mean returns of -200.0
+Epsilon = 1.0
+
+Training iteration: 5/10
+Evaluation at timestep 10000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 20000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 30000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 40000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 50000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 60000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 70000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 80000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 90000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 100000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 110000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 120000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 130000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 140000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 150000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 160000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 170000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 180000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 190000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 200000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 210000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 220000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 230000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 240000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 250000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 260000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 270000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 280000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 290000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 300000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 310000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 320000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 330000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 340000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 350000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 360000 returned a mean returns of -188.95999999999998
+Epsilon = 1.0
+Evaluation at timestep 370000 returned a mean returns of -126.03000000000003
+Epsilon = 1.0
+Evaluation at timestep 380000 returned a mean returns of -124.27000000000001
+Epsilon = 1.0
+Evaluation at timestep 390000 returned a mean returns of -145.92000000000004
+Epsilon = 1.0
+Evaluation at timestep 400000 returned a mean returns of -167.83000000000004
+Epsilon = 1.0
+Evaluation at timestep 410000 returned a mean returns of -177.94000000000003
+Epsilon = 1.0
+Evaluation at timestep 420000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 430000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 440000 returned a mean returns of -146.79
+Epsilon = 1.0
+Evaluation at timestep 450000 returned a mean returns of -140.52000000000007
+Epsilon = 1.0
+Evaluation at timestep 460000 returned a mean returns of -136.07999999999998
+Epsilon = 1.0
+Evaluation at timestep 470000 returned a mean returns of -158.55000000000004
+Epsilon = 1.0
+Evaluation at timestep 480000 returned a mean returns of -175.42999999999998
+Epsilon = 1.0
+Evaluation at timestep 490000 returned a mean returns of -152.57
+Epsilon = 1.0
+Evaluation at timestep 500000 returned a mean returns of -154.07999999999998
+Epsilon = 1.0
+Evaluation at timestep 510000 returned a mean returns of -179.08999999999992
+Epsilon = 1.0
+Evaluation at timestep 520000 returned a mean returns of -198.82
+Epsilon = 1.0
+Evaluation at timestep 530000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 540000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 550000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 560000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 570000 returned a mean returns of -199.76
+Epsilon = 1.0
+Evaluation at timestep 580000 returned a mean returns of -198.86999999999998
+Epsilon = 1.0
+Evaluation at timestep 590000 returned a mean returns of -174.19999999999996
+Epsilon = 1.0
+Evaluation at timestep 600000 returned a mean returns of -159.74999999999997
+Epsilon = 1.0
+Evaluation at timestep 610000 returned a mean returns of -149.86999999999992
+Epsilon = 1.0
+Evaluation at timestep 620000 returned a mean returns of -156.59000000000003
+Epsilon = 1.0
+Evaluation at timestep 630000 returned a mean returns of -162.45000000000002
+Epsilon = 1.0
+Evaluation at timestep 640000 returned a mean returns of -170.02000000000007
+Epsilon = 1.0
+Evaluation at timestep 650000 returned a mean returns of -131.26999999999995
+Epsilon = 1.0
+Evaluation at timestep 660000 returned a mean returns of -199.84
+Epsilon = 1.0
+Evaluation at timestep 670000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 680000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 690000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 700000 returned a mean returns of -200.0
+Epsilon = 1.0
+
+Training iteration: 6/10
+Evaluation at timestep 10000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 20000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 30000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 40000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 50000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 60000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 70000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 80000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 90000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 100000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 110000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 120000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 130000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 140000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 150000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 160000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 170000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 180000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 190000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 200000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 210000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 220000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 230000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 240000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 250000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 260000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 270000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 280000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 290000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 300000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 310000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 320000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 330000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 340000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 350000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 360000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 370000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 380000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 390000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 400000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 410000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 420000 returned a mean returns of -182.91000000000005
+Epsilon = 1.0
+Evaluation at timestep 430000 returned a mean returns of -182.48000000000008
+Epsilon = 1.0
+Evaluation at timestep 440000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 450000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 460000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 470000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 480000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 490000 returned a mean returns of -184.27
+Epsilon = 1.0
+Evaluation at timestep 500000 returned a mean returns of -159.20999999999987
+Epsilon = 1.0
+Evaluation at timestep 510000 returned a mean returns of -174.07000000000002
+Epsilon = 1.0
+Evaluation at timestep 520000 returned a mean returns of -183.14999999999998
+Epsilon = 1.0
+Evaluation at timestep 530000 returned a mean returns of -190.5
+Epsilon = 1.0
+Evaluation at timestep 540000 returned a mean returns of -161.29999999999993
+Epsilon = 1.0
+Evaluation at timestep 550000 returned a mean returns of -151.47
+Epsilon = 1.0
+Evaluation at timestep 560000 returned a mean returns of -161.37000000000003
+Epsilon = 1.0
+Evaluation at timestep 570000 returned a mean returns of -198.31
+Epsilon = 1.0
+Evaluation at timestep 580000 returned a mean returns of -191.15000000000003
+Epsilon = 1.0
+Evaluation at timestep 590000 returned a mean returns of -187.63999999999996
+Epsilon = 1.0
+Evaluation at timestep 600000 returned a mean returns of -184.61000000000004
+Epsilon = 1.0
+Evaluation at timestep 610000 returned a mean returns of -176.09000000000006
+Epsilon = 1.0
+Evaluation at timestep 620000 returned a mean returns of -157.17000000000002
+Epsilon = 1.0
+Evaluation at timestep 630000 returned a mean returns of -135.69
+Epsilon = 1.0
+Evaluation at timestep 640000 returned a mean returns of -143.85000000000002
+Epsilon = 1.0
+Evaluation at timestep 650000 returned a mean returns of -158.15000000000003
+Epsilon = 1.0
+Evaluation at timestep 660000 returned a mean returns of -166.11000000000004
+Epsilon = 1.0
+Evaluation at timestep 670000 returned a mean returns of -147.57
+Epsilon = 1.0
+Evaluation at timestep 680000 returned a mean returns of -167.22000000000006
+Epsilon = 1.0
+Evaluation at timestep 690000 returned a mean returns of -164.56
+Epsilon = 1.0
+Evaluation at timestep 700000 returned a mean returns of -182.08999999999997
+Epsilon = 1.0
+
+Training iteration: 7/10
+Evaluation at timestep 10000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 20000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 30000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 40000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 50000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 60000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 70000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 80000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 90000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 100000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 110000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 120000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 130000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 140000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 150000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 160000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 170000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 180000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 190000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 200000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 210000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 220000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 230000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 240000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 250000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 260000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 270000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 280000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 290000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 300000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 310000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 320000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 330000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 340000 returned a mean returns of -199.85
+Epsilon = 1.0
+Evaluation at timestep 350000 returned a mean returns of -198.01999999999992
+Epsilon = 1.0
+Evaluation at timestep 360000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 370000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 380000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 390000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 400000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 410000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 420000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 430000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 440000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 450000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 460000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 470000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 480000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 490000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 500000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 510000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 520000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 530000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 540000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 550000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 560000 returned a mean returns of -161.44
+Epsilon = 1.0
+Evaluation at timestep 570000 returned a mean returns of -154.25000000000003
+Epsilon = 1.0
+Evaluation at timestep 580000 returned a mean returns of -151.88000000000008
+Epsilon = 1.0
+Evaluation at timestep 590000 returned a mean returns of -161.18999999999997
+Epsilon = 1.0
+Evaluation at timestep 600000 returned a mean returns of -188.63
+Epsilon = 1.0
+Evaluation at timestep 610000 returned a mean returns of -192.75999999999993
+Epsilon = 1.0
+Evaluation at timestep 620000 returned a mean returns of -198.09000000000003
+Epsilon = 1.0
+Evaluation at timestep 630000 returned a mean returns of -176.56999999999996
+Epsilon = 1.0
+Evaluation at timestep 640000 returned a mean returns of -152.53000000000006
+Epsilon = 1.0
+Evaluation at timestep 650000 returned a mean returns of -124.44999999999999
+Epsilon = 1.0
+Evaluation at timestep 660000 returned a mean returns of -136.37999999999997
+Epsilon = 1.0
+Evaluation at timestep 670000 returned a mean returns of -147.44000000000003
+Epsilon = 1.0
+Evaluation at timestep 680000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 690000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 700000 returned a mean returns of -200.0
+Epsilon = 1.0
+
+Training iteration: 8/10
+Evaluation at timestep 10000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 20000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 30000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 40000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 50000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 60000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 70000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 80000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 90000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 100000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 110000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 120000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 130000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 140000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 150000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 160000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 170000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 180000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 190000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 200000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 210000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 220000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 230000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 240000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 250000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 260000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 270000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 280000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 290000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 300000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 310000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 320000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 330000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 340000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 350000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 360000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 370000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 380000 returned a mean returns of -196.01000000000002
+Epsilon = 1.0
+Evaluation at timestep 390000 returned a mean returns of -198.53
+Epsilon = 1.0
+Evaluation at timestep 400000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 410000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 420000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 430000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 440000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 450000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 460000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 470000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 480000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 490000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 500000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 510000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 520000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 530000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 540000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 550000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 560000 returned a mean returns of -184.72000000000003
+Epsilon = 1.0
+Evaluation at timestep 570000 returned a mean returns of -186.60999999999996
+Epsilon = 1.0
+Evaluation at timestep 580000 returned a mean returns of -198.4499999999999
+Epsilon = 1.0
+Evaluation at timestep 590000 returned a mean returns of -199.98000000000002
+Epsilon = 1.0
+Evaluation at timestep 600000 returned a mean returns of -199.62
+Epsilon = 1.0
+Evaluation at timestep 610000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 620000 returned a mean returns of -169.89
+Epsilon = 1.0
+Evaluation at timestep 630000 returned a mean returns of -150.31000000000012
+Epsilon = 1.0
+Evaluation at timestep 640000 returned a mean returns of -113.03999999999996
+Epsilon = 1.0
+Evaluation at timestep 650000 returned a mean returns of -152.86999999999998
+Epsilon = 1.0
+Evaluation at timestep 660000 returned a mean returns of -151.46999999999997
+Epsilon = 1.0
+Evaluation at timestep 670000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 680000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 690000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 700000 returned a mean returns of -200.0
+Epsilon = 1.0
+
+Training iteration: 9/10
+Evaluation at timestep 10000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 20000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 30000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 40000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 50000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 60000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 70000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 80000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 90000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 100000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 110000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 120000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 130000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 140000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 150000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 160000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 170000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 180000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 190000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 200000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 210000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 220000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 230000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 240000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 250000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 260000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 270000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 280000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 290000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 300000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 310000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 320000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 330000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 340000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 350000 returned a mean returns of -193.34000000000003
+Epsilon = 1.0
+Evaluation at timestep 360000 returned a mean returns of -199.52
+Epsilon = 1.0
+Evaluation at timestep 370000 returned a mean returns of -198.33999999999997
+Epsilon = 1.0
+Evaluation at timestep 380000 returned a mean returns of -184.39999999999998
+Epsilon = 1.0
+Evaluation at timestep 390000 returned a mean returns of -168.1
+Epsilon = 1.0
+Evaluation at timestep 400000 returned a mean returns of -136.52999999999994
+Epsilon = 1.0
+Evaluation at timestep 410000 returned a mean returns of -137.93999999999997
+Epsilon = 1.0
+Evaluation at timestep 420000 returned a mean returns of -140.0000000000001
+Epsilon = 1.0
+Evaluation at timestep 430000 returned a mean returns of -146.74000000000004
+Epsilon = 1.0
+Evaluation at timestep 440000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 450000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 460000 returned a mean returns of -193.45000000000002
+Epsilon = 1.0
+Evaluation at timestep 470000 returned a mean returns of -198.29
+Epsilon = 1.0
+Evaluation at timestep 480000 returned a mean returns of -185.90999999999994
+Epsilon = 1.0
+Evaluation at timestep 490000 returned a mean returns of -140.87
+Epsilon = 1.0
+Evaluation at timestep 500000 returned a mean returns of -116.44000000000007
+Epsilon = 1.0
+Evaluation at timestep 510000 returned a mean returns of -162.58
+Epsilon = 1.0
+Evaluation at timestep 520000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 530000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 540000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 550000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 560000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 570000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 580000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 590000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 600000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 610000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 620000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 630000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 640000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 650000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 660000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 670000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 680000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 690000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 700000 returned a mean returns of -200.0
+Epsilon = 1.0
+
+Training iteration: 10/10
+Evaluation at timestep 10000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 20000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 30000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 40000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 50000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 60000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 70000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 80000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 90000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 100000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 110000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 120000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 130000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 140000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 150000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 160000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 170000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 180000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 190000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 200000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 210000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 220000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 230000 returned a mean returns of -194.33999999999995
+Epsilon = 1.0
+Evaluation at timestep 240000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 250000 returned a mean returns of -199.11
+Epsilon = 1.0
+Evaluation at timestep 260000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 270000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 280000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 290000 returned a mean returns of -197.64000000000001
+Epsilon = 1.0
+Evaluation at timestep 300000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 310000 returned a mean returns of -155.48999999999995
+Epsilon = 1.0
+Evaluation at timestep 320000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 330000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 340000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 350000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 360000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 370000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 380000 returned a mean returns of -181.10000000000002
+Epsilon = 1.0
+Evaluation at timestep 390000 returned a mean returns of -128.32
+Epsilon = 1.0
+Evaluation at timestep 400000 returned a mean returns of -150.56
+Epsilon = 1.0
+Evaluation at timestep 410000 returned a mean returns of -160.26000000000008
+Epsilon = 1.0
+Evaluation at timestep 420000 returned a mean returns of -158.68000000000004
+Epsilon = 1.0
+Evaluation at timestep 430000 returned a mean returns of -142.57999999999998
+Epsilon = 1.0
+Evaluation at timestep 440000 returned a mean returns of -133.68999999999997
+Epsilon = 1.0
+Evaluation at timestep 450000 returned a mean returns of -170.08000000000004
+Epsilon = 1.0
+Evaluation at timestep 460000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 470000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 480000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 490000 returned a mean returns of -199.74999999999997
+Epsilon = 1.0
+Evaluation at timestep 500000 returned a mean returns of -186.25000000000006
+Epsilon = 1.0
+Evaluation at timestep 510000 returned a mean returns of -136.5900000000001
+Epsilon = 1.0
+Evaluation at timestep 520000 returned a mean returns of -193.27000000000007
+Epsilon = 1.0
+Evaluation at timestep 530000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 540000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 550000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 560000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 570000 returned a mean returns of -158.83999999999997
+Epsilon = 1.0
+Evaluation at timestep 580000 returned a mean returns of -134.66000000000005
+Epsilon = 1.0
+Evaluation at timestep 590000 returned a mean returns of -198.76
+Epsilon = 1.0
+Evaluation at timestep 600000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 610000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 620000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 630000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 640000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 650000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 660000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 670000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 680000 returned a mean returns of -200.0
+Epsilon = 1.0
+Evaluation at timestep 690000 returned a mean returns of -199.51999999999998
+Epsilon = 1.0
+Evaluation at timestep 700000 returned a mean returns of -174.25
+Epsilon = 1.0
+Finished run with hyperparameters epsilon_start:1.0_epsilon_decay:1. Mean final score: -192.545 +- 3.237091372753571
+Final epsilon: 1.0
+Saving results to DQN-MountainCar-sweep-decay-exponential-results.pkl

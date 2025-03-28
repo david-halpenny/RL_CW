@@ -30,15 +30,23 @@ def evaluate(env: gym.Env, config: Dict, output: bool = True) -> Tuple[List[floa
     agent = DDPG(
         action_space=env.action_space, observation_space=observation_space, **config
     )
+
     try:
-        agent.restore(config['save_filename'])
+        # reconstruct the unique filename based on hidden size settings
+        unique_identifier = f"critic_{config['critic_hidden_size']}_policy_{config['policy_hidden_size']}"
+        unique_identifier = unique_identifier.replace(" ", "").replace(",", "_").replace("[", "").replace("]", "")
+        unique_filename = f"{unique_identifier}_{config['save_filename']}.pt"
+        agent.restore(unique_filename)
+        # agent.restore(config["save_filename"])
+
     except:
         raise ValueError(f"Could not find model to load at {config['save_filename']}")
 
     eval_returns_all = []
     eval_times_all = []
 
-    for loop in range(3):
+    # for loop in range(3):
+    for loop in range(10): 
         eval_returns = 0
         for _ in range(config["eval_episodes"]):
             _, episode_return, _ = play_episode(
@@ -61,4 +69,5 @@ if __name__ == "__main__":
     returns = evaluate(env, CONFIG)
     print(returns)
     print(np.max(returns))
+    print(np.mean(returns))
     env.close()

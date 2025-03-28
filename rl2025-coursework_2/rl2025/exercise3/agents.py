@@ -217,20 +217,16 @@ class DQN(Agent):
                 epsilon = epsilon_start - (epsilon_start - epsilon_min) * (timestep / total_decay_time)
             return epsilon
 
-        def epsilon_exponential_decay(timestep, epsilon_start, epsilon_min, decay_factor):
+        def epsilon_exponential_decay(timestep, epsilon_old, epsilon_min, decay_factor):
             """Exponential epsilon decay strategy
             
-            Exponentially decays epsilon from epsilon_start to epsilon_min using decay_factor
+            Exponentially decays the previous episodes epsilon to the new epsilon as given by the formula. 
+            If the new epsilon is less than epsilon_min, epsilon_min is returned. 
             """
-            if decay_factor == 1:
-                return epsilon_start
-                
-            total_decay_time = max_timestep*(np.log(epsilon_min / epsilon_start) / np.log(decay_factor))
-            if timestep > total_decay_time:
-                epsilon = epsilon_min
-            else:
-                epsilon = epsilon_start * (decay_factor ** (timestep / max_timestep))
-            return epsilon
+            epsilon_new = (decay_factor ** (timestep/max_timestep))*(epsilon_old)
+            if epsilon_new < epsilon_min:
+                epsilon_new = epsilon_min
+            return epsilon_new
 
         if self.epsilon_decay_strategy == "constant":
             pass
@@ -247,7 +243,7 @@ class DQN(Agent):
             # exponential decay
             self.epsilon = epsilon_exponential_decay(
                 timestep, 
-                self.epsilon_start, 
+                self.epsilon, 
                 self.epsilon_min, 
                 self.epsilon_exponential_decay_factor
             )

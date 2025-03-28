@@ -45,12 +45,12 @@ MOUNTAINCAR_CONFIG.update(MOUNTAINCAR_CONSTANTS)
 
 MOUNTAINCAR_HPARAMS_LINEAR_DECAY = {
     "epsilon_start": [1.0,],
-    "exploration_fraction": [0.99, 0.75, 0.01]
+    "exploration_fraction": [0.01, 0.99, 0.75]
     }
 
 MOUNTAINCAR_HPARAMS_EXP_DECAY = {
     "epsilon_start": [1.0,],
-    "epsilon_decay": [1, 0.5, 1e-5]
+    "epsilon_decay": [1e-5, 0.5, 1]
     }
 
 if MOUNTAINCAR_CONFIG['epsilon_decay_strategy'] == "linear":

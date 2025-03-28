@@ -100,7 +100,7 @@ def question3_2() -> str:
     c) 0.01
     return: (str): your answer as a string. accepted strings: "a", "b" or "c"
     """
-    answer = ""  # TYPE YOUR ANSWER HERE "a", "b" or "c"
+    answer = "c"  # TYPE YOUR ANSWER HERE "a", "b" or "c"
     return answer
 
 
@@ -146,7 +146,7 @@ def question3_5() -> str:
     e) it depends on the number of training timesteps
     return: (str): your answer as a string. accepted strings: "a", "b", "c", "d" or "e"
     """
-    answer = "a"  # TYPE YOUR ANSWER HERE "a", "b", "c", "d" or "e"
+    answer = "e"  # TYPE YOUR ANSWER HERE "a", "b", "c", "d" or "e"
     return answer
 
 
@@ -159,7 +159,10 @@ def question3_6() -> str:
     strategy you implemented).
     return: answer (str): your answer as a string (100 words max)
     """
-    answer = ""  # TYPE YOUR ANSWER HERE (100 words max)
+    answer = "With exponential decay, since epsilon_final = r*epsilon_start, if epsilon_start = 1 like above, then the value of epsilon_min that we want to decay towards is completely ignored - unless epsilon_min > r." \
+            "In general the objective of scheuling epsilon is to reach a small probability to allow for proper exploitation." \
+            "This means, to achieve different speeds of decay, we may need to compare numbers of different orders of magnitude eg 1e-5." \
+            "This approach is less intuitive when compared to the exploration fraction approach, which the number of timesteps needed to reach the epsilon_min and thus the speed of decay."  # TYPE YOUR ANSWER HERE (100 words max)
     return answer
 
 
@@ -170,7 +173,10 @@ def question3_7() -> str:
     (where we usually see a fairly steady decrease of the loss throughout training)
     return: answer (str): your answer as a string (150 words max)
     """
-    answer = ""  # TYPE YOUR ANSWER HERE (150 words max)
+    answer = "In DQN the loss is measured by the MSE between an estimate of the q-value function that is updated less frequently (the target) and an estimate that is updated more frequently (the value)." \
+        "Fundamentally these are both estimates of the true function. The loss starting off small indicates that our two estimates are similar, not that we are close to predicting the true function. As the network learns, the loss increases dramatically because the target is updated closer to the true function, and the value network tries to fit this different estimate of the true function." \
+        "For comparison, in supervised learning tasks the datapoints that we minimise the MSE for don't change position after a number of timesteps, so the loss tends to decrease." \
+        "Lastly the somewhat stochastic behaviour that comes after aregular spike at later timesteps is due to the interconnectedness of the network - optimising for one batch of state-actions could harm another."  # TYPE YOUR ANSWER HERE (150 words max)
     return answer
 
 
@@ -181,7 +187,9 @@ def question3_8() -> str:
     the DQN training process.
     return: answer (str): your answer as a string (100 words max)
     """
-    answer = ""  # TYPE YOUR ANSWER HERE (100 words max)
+    answer = "The regular spikes very clearly occur every 2000 timesteps. This is because the target network is updated that frequently." \
+    "In essence, the spikes are because the target q-values that the value network is learning are being changed - making them a moving target." \
+    "The value network minimises the MSE with the previous target, but when this target is outdated, the value of the MSE dramatically increases and the value network has to start over - minimising the MSE between its output and the new target."  # TYPE YOUR ANSWER HERE (100 words max)
     return answer
 
 

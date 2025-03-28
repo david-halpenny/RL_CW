@@ -16,6 +16,7 @@ from rl2025.exercise4.agents import DDPG
 from rl2025.exercise3.replay import ReplayBuffer
 from rl2025.util.hparam_sweeping import generate_hparam_configs
 from rl2025.util.result_processing import Run
+import itertools
 
 RENDER = False # FALSE FOR FASTER TRAINING / TRUE TO VISUALIZE ENVIRONMENT DURING EVALUATION
 SWEEP = False # TRUE TO SWEEP OVER POSSIBLE HYPERPARAMETER CONFIGURATIONS
@@ -24,18 +25,30 @@ SWEEP_SAVE_RESULTS = True # TRUE TO SAVE SWEEP RESULTS TO A FILE
 SWEEP_SAVE_ALL_WEIGTHS = False # TRUE TO SAVE ALL WEIGHTS FROM EACH SEED
 ENV = "RACETRACK"
 
+# ORIGINAL SETTINGS
 RACETRACK_CONFIG = {
     "critic_hidden_size": [32, 32, 32],
     "policy_hidden_size": [32, 32, 32],
 }
 RACETRACK_CONFIG.update(RACETRACK_CONSTANTS)
 
-
-### INCLUDE YOUR CHOICE OF HYPERPARAMETERS HERE ###
+### MY FINAL CHOICE OF HIDDEN SIZES
 RACETRACK_HPARAMS = {
-    "critic_hidden_size": ...,
-    "policy_hidden_size": ...,
+    "critic_hidden_size": [64, 64, 64],
+    "policy_hidden_size": [64, 64, 64],
     }
+
+RACETRACK_CONFIG.update(RACETRACK_HPARAMS)
+
+CRITIC_HIDDEN_SIZES = [[32, 32, 32], [64, 64, 64], [16, 16, 16]]
+POLICY_HIDDEN_SIZES = [[32, 32, 32], [64, 64, 64], [16, 16, 16]]
+
+RACETRACK_HPARAMS_GRID = [
+    {"critic_hidden_size": critic, "policy_hidden_size": policy}
+    for critic, policy in itertools.product(CRITIC_HIDDEN_SIZES, POLICY_HIDDEN_SIZES)
+]
+
+
 
 SWEEP_RESULTS_FILE_RACETRACK = "DDPG-Racetrack-sweep-results-ex4.pkl"
 
@@ -116,6 +129,7 @@ def train(env: gym.Env, env_eval: gym.Env, config: Dict, output: bool = True) ->
     eval_timesteps_all = []
     eval_times_all = []
     run_data = defaultdict(list)
+    successful_hiddensizes = None
 
     start_time = time.time()
 
@@ -167,16 +181,29 @@ def train(env: gym.Env, env_eval: gym.Env, config: Dict, output: bool = True) ->
                 eval_returns_all.append(eval_returns)
                 eval_timesteps_all.append(timesteps_elapsed)
                 eval_times_all.append(time.time() - start_time)
-                if eval_returns >= config["target_return"]:
+                # if eval_returns >= config["target_return"]:
+                if all(episode_return >= config["target_return"] for episode_return in episodic_returns):
                     pbar.write(
                         f"Reached return {eval_returns} >= target return of {config['target_return']}"
                     )
-                    break
+                    if config["save_filename"]:
+                        # create a unique identifier for the settings of hidden sizes, instead of overriding each succesful setting with a new one
+                        unique_identifier = f"critic_{config['critic_hidden_size']}_policy_{config['policy_hidden_size']}"
+                        unique_identifier = unique_identifier.replace(" ", "").replace(",", "_").replace("[", "").replace("]", "")
+                        unique_filename = f"{unique_identifier}_{config['save_filename']}.pt"
+                        print("Saving agent to: ", agent.save(unique_filename))
+                        #print("Saving agent to: ", agent.save(config["save_filename"]))
+                    # Store the successful hyperparameter settings
+                    successful_hiddensizes = {
+                        "critic_hidden_size": config["critic_hidden_size"],
+                        "policy_hidden_size": config["policy_hidden_size"]
+                    }
+                    break  # Stop training for this configuration
 
-    if config["save_filename"]:
-        print("Saving to: ", agent.save(config["save_filename"]))
+    # if config["save_filename"]:
+    #     print("Saving to: ", agent.save(config["save_filename"]))
 
-    return np.array(eval_returns_all), np.array(eval_timesteps_all), np.array(eval_times_all), run_data
+    return np.array(eval_returns_all), np.array(eval_timesteps_all), np.array(eval_times_all), run_data, successful_hiddensizes
 
 
 if __name__ == "__main__":
@@ -191,7 +218,6 @@ if __name__ == "__main__":
     env_eval = gym.make(CONFIG["env"])
 
     if SWEEP and HPARAMS_SWEEP is not None:
-        qqq
         config_list, swept_params = generate_hparam_configs(CONFIG, HPARAMS_SWEEP)
         results = []
         for config in config_list:
@@ -216,6 +242,23 @@ if __name__ == "__main__":
                 pickle.dump(results, f)
 
     else:
-        _ = train(env, env_eval, CONFIG)
+        # _ = train(env, env_eval, CONFIG)
+        # adding funcitonality so that I can do a grid search over hidden sizes to find optimal
+        successful_hiddensizes_all = [] 
+        for sizes in RACETRACK_HPARAMS_GRID:
+            print(f"Training with hidden sizes: {sizes}")
+            CONFIG.update(sizes)
 
+            eval_returns, eval_timesteps, times, run_data, successful_hiddensizes = train(env, env_eval, CONFIG)
+            
+            eval_data = [{"timestep": t, "return": r} for t, r in zip(eval_timesteps, eval_returns)]
+            if successful_hiddensizes is not None:    
+                successful_hiddensizes_all.append({
+                "critic_hidden_size": successful_hiddensizes["critic_hidden_size"],
+                "policy_hidden_size": successful_hiddensizes["policy_hidden_size"],
+                "eval_data": eval_data,  # Store combined eval data
+                })
+
+        
+        print(f"Successful hidden sizes: {successful_hiddensizes_all}")
     env.close()
